@@ -68,6 +68,7 @@ export default function App() {
     const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const BASE_PATH = import.meta.env.BASE_URL
 
     const validarCamposInterno = () => {
         if (!name.trim() || !phone.trim() || !email.trim() || !message.trim()) {
@@ -344,8 +345,8 @@ export default function App() {
             github: null,
             live: '', // se houver versão online
             icon: <FaServer className="text-3xl mb-2 text-blue-500" />,
-            images: ['/images/swbackup1.jpg', '/images/swbackup2.jpg', '/images/swbackup3.jpg', '/images/swbackup4.jpg', '/images/swbackup5.jpg', '/images/swbackup6.jpg'],
-            video: '/videos/swbackup.mp4',
+            images: [BASE_PATH +'/images/swbackup1.jpg', '/images/swbackup2.jpg', '/images/swbackup3.jpg', '/images/swbackup4.jpg', '/images/swbackup5.jpg', '/images/swbackup6.jpg'],
+            video: BASE_PATH + '/videos/swbackup.mp4',
             level: 'Finalizado'
         },
         {
@@ -358,8 +359,14 @@ export default function App() {
             github: 'https://github.com/EliveltonProgrammer/Exportacao-dados-SQL',
             live: '', // se houver versão online
             icon: <FaServer className="text-3xl mb-2 text-blue-500" />,
-            images: ['/images/swmigracao1.jpg', '/images/swmigracao2.jpg', '/images/swmigracao3.jpg', '/images/swmigracao4.jpg', '/images/swmigracao5.jpg'],
-            video: '/videos/swmigracao.mp4',
+            images: [
+                BASE_PATH + 'images/swmigracao1.jpg',
+                BASE_PATH + 'images/swmigracao2.jpg',
+                BASE_PATH + 'images/swmigracao3.jpg',
+                BASE_PATH + 'images/swmigracao4.jpg',
+                BASE_PATH + 'images/swmigracao5.jpg'
+            ],
+            video: BASE_PATH + 'videos/swmigracao.mp4',
             level: 'Finalizado'
         },
         {
@@ -381,9 +388,20 @@ export default function App() {
             github: null,
             live: '',
             icon: <FaProjectDiagram className="text-3xl mb-2 text-blue-500" />,
-            images: ['/images/appmesas1.jpg', '/images/appmesas2.jpg', '/images/appmesas3.jpg', '/images/appmesas4.jpg', '/images/appmesas5.jpg',
-                '/images/appmesas6.jpg', '/images/appmesas7.jpg', '/images/appmesas8.jpg', '/images/appmesas9.jpg', '/images/appmesas10.jpg', '/images/appmesas11.jpg'],
-            video: '/videos/appmesas.mp4',
+            images: [
+                BASE_PATH + 'images/appmesas1.jpg',
+                BASE_PATH + 'images/appmesas2.jpg',
+                BASE_PATH + 'images/appmesas3.jpg',
+                BASE_PATH + 'images/appmesas4.jpg',
+                BASE_PATH + 'images/appmesas5.jpg',
+                BASE_PATH + 'images/appmesas6.jpg',
+                BASE_PATH + 'images/appmesas7.jpg',
+                BASE_PATH + 'images/appmesas8.jpg',
+                BASE_PATH + 'images/appmesas9.jpg',
+                BASE_PATH + 'images/appmesas10.jpg',
+                BASE_PATH + 'images/appmesas11.jpg'
+            ],
+            video: BASE_PATH + 'videos/appmesas.mp4',
             level: 'Finalizado'
         },
         {
@@ -398,9 +416,19 @@ export default function App() {
             github: null,
             live: '',
             icon: <FaProjectDiagram className="text-3xl mb-2 text-blue-500" />,
-            images: ['/images/reservas1.jpg', '/images/reservas2.jpg', '/images/reservas3.jpg', '/images/reservas4.jpg', '/images/reservas5.jpg',
-                '/images/reservas6.jpg', '/images/reservas7.jpg', '/images/reservas8.jpg', '/images/reservas9.jpg', '/images/reservas10.jpg'],
-            video: '/videos/reservas.mp4',
+            images: [
+                BASE_PATH + 'images/reservas1.jpg',
+                BASE_PATH + 'images/reservas2.jpg',
+                BASE_PATH + 'images/reservas3.jpg',
+                BASE_PATH + 'images/reservas4.jpg',
+                BASE_PATH + 'images/reservas5.jpg',
+                BASE_PATH + 'images/reservas6.jpg',
+                BASE_PATH + 'images/reservas7.jpg',
+                BASE_PATH + 'images/reservas8.jpg',
+                BASE_PATH + 'images/reservas9.jpg',
+                BASE_PATH + 'images/reservas10.jpg'
+            ],
+            video: BASE_PATH + 'videos/reservas.mp4',
             level: 'Finalizado'
         }
     ]
@@ -418,7 +446,7 @@ export default function App() {
             github: null,
             live: null,
             icon: <FaShieldAlt className="text-3xl mb-2 text-red-500" />,
-            images: [], // importante!
+            images: null,
             level: "Planejamento"
         }
     ]
