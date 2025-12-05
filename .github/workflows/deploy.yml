@@ -3,33 +3,31 @@ name: Deploy Portfolio
 on:
   push:
     branches:
-      - main
+      - main  # sempre que der push no main, vai tentar deploy
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      # Pega o código do repositório
+      - uses: actions/checkout@v3
 
+      # Configura Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      - name: Setup pnpm
-        run: corepack enable && corepack prepare pnpm@latest --activate
+      # Instala dependências
+      - run: npm ci
 
-      - name: Install dependencies
-        run: pnpm install
+      # Build do Vite
+      - run: npm run build
 
-      - name: Build project
-        run: pnpm run build
-
-      - name: Deploy to GitHub Pages
+      # Publica no GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          destination_branch: gh-pages
