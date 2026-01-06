@@ -849,48 +849,49 @@ export default function App() {
                 </section>
             </FadeInSection>
 
-            {/*
-<FadeInSection>
-    <section id="projetos-futuros" className="py-20 container mx-auto px-4">
-        <div className="flex flex-col items-center gap-1">
-            <h2 className="text-4xl font-bold flex items-center gap-3">
-                <FaLaptopCode className="text-red-400" />
-                Projetos Futuros
-            </h2>
-            <p className="text-sm text-gray-500">Ideias futuras</p>
-        </div>
+            {/* Projetos Futuros */}
+            <FadeInSection>
+                <section id="projetos-futuros" className="py-20 container mx-auto px-4">
+                    <div className="flex flex-col items-center gap-1">
+                        <h2 className="text-4xl font-bold flex items-center gap-3">
+                            <FaLaptopCode className="text-red-400" />
+                            Projetos Futuros
+                        </h2>
+                        <p className="text-sm text-gray-500">Ideias futuras</p>
+                    </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mt-12">
-            {projetosFuturos.map((proj, index) => (
-                <Card
-                    key={index}
-                    className="hover:shadow-lg transition-transform hover:scale-105 cursor-pointer"
-                    onClick={() => openModal(proj)}
-                >
-                    <CardHeader>
-                        {proj.icon}
-                        <CardTitle>{proj.title}</CardTitle>
+                    <div className="grid md:grid-cols-3 gap-8 mt-12">
+                        {projetosFuturos.map((proj, index) => (
+                            <Card
+                                key={index}
+                                className="hover:shadow-lg transition-transform hover:scale-105 cursor-pointer"
+                                onClick={() => openModal(proj)}
+                            >
+                                <CardHeader>
+                                    {proj.icon}
+                                    <CardTitle>{proj.title}</CardTitle>
 
-                        {proj.technologies && proj.technologies.length > 0 && (
-                            <CardDescription>
-                                {proj.technologies.join(' • ')}
-                            </CardDescription>
-                        )}
-                    </CardHeader>
+                                    {/* Descrição curta ou tecnologias, igual ao padrão de Projetos */}
+                                    {proj.technologies && proj.technologies.length > 0 && (
+                                        <CardDescription>
+                                            {proj.technologies.join(' • ')}
+                                        </CardDescription>
+                                    )}
+                                </CardHeader>
 
-                    <CardContent>
-                        <p>{proj.description}</p>
+                                <CardContent>
+                                    <p>{proj.description}</p>
 
-                        <p className="text-sm text-right mt-2 font-medium text-green-500">
-                            {proj.level}
-                        </p>
-                    </CardContent>
-                </Card>
-            ))}
-        </div>
-    </section>
-</FadeInSection>
-*/}
+                                    {/* Level no mesmo local do padrão */}
+                                    <p className="text-sm text-right mt-2 font-medium text-green-500">
+                                        {proj.level}
+                                    </p>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </div>
+                </section>
+            </FadeInSection>
 
             {/* Modal Projetos */}
             {selectedProject && (
