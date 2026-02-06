@@ -35,6 +35,7 @@ import {
     FaBookOpen,
     FaEnvelope,
     FaBookmark,
+    FaLinkedin,
     FaExclamationTriangle,
     FaUserCheck,
     FaGithub,
@@ -545,6 +546,21 @@ export default function App() {
                                 >
                                     <FaEnvelope className="text-xl" />
                                     E-mail
+                                </a>
+                            </Button>
+
+                            {/* Botão Linkedin */}
+                            <Button
+                                asChild
+                                className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
+                            >
+                                <a
+                                    href="https://www.linkedin.com/in/eliveltonalmeida/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaLinkedin className="text-xl" />
+                                    LinkedIn
                                 </a>
                             </Button>
                         </div>
