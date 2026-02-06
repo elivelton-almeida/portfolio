@@ -498,16 +498,14 @@ export default function App() {
                         </p>
 
                         <p className="text-gray-300 mb-8">
-                            Sou Desenvolvedor Full Stack com experiência sólida em backend e frontend, graduado em ADS e Engenharia de Software.
-                            Trabalho com .NET, ASP.NET Core, C#, EF Core, SQL Server, JavaScript, HTML, CSS e React.
-
-                            Ao longo de 12 anos em TI, atuei com sistemas ERP, comércio e indústria, passando tanto por desenvolvimento quanto
-                            por suporte técnico. Essa vivência prática no suporte me proporcionou uma visão diferenciada sobre operação, usabilidade,
-                            comportamento do usuário e necessidades reais do negócio, que aplico diretamente na construção de soluções mais
-                            eficientes, estáveis e alinhadas ao dia a dia do cliente.
-
-                            Também participei de um projeto internacional pessoal, voltado à integração e gestão de restaurante, ampliando tecnicamente
-                            minha experiência em ambientes multiculturais.
+                            Desenvolvedor FullStack com atuação de três anos em backend e frontend. Graduado em Análise e Desenvolvimento de Sistemas e Engenharia de Software.
+                            Ao longo de 12 anos de experiência em Tecnologia da Informação, atuei em ambientes de ERP, Comércios e Indústrias, passando por funções de 
+                            desenvolvimento de software, suporte técnico em implantações, configurações e treinamentos de módulos fiscais como SAT, NFC-e, SPED e voltados
+                            para gestão de Produção como PCP, Estrutura de Produto e Consumo de Materiais para produção, e Processos por Máquinas.
+                            Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution System), prestando suporte técnico a ambientes industriais, 
+                            realizando análise de incidentes, tratativa de chamados, validação de dados, análise de logs e apoio à operação dos sistemas em produção. 
+                            Essa vivência no suporte me proporcionou uma visão aprofundada sobre operação de sistemas, usabilidade, comportamento do usuário e necessidades reais 
+                            do negócio, conhecimentos que aplico diretamente no desenvolvimento de soluções eficientes, estáveis e alinhadas aos objetivos.
                         </p>
 
                         <div className="flex gap-4 justify-center md:justify-start">
