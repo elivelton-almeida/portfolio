@@ -502,15 +502,16 @@ export default function App() {
                             Profissional formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, 
                             com 12 anos de experiência em Tecnologia da Informação, atuando nas áreas de Suporte Técnico 
                             e Desenvolvimento de Sistemas, sendo 3 anos dedicados diretamente ao desenvolvimento de software.
-                            Atuei em ambientes de ERP, comércio e indústria, com experiência em desenvolvimento, implantação, 
-                            configuração e suporte a sistemas, incluindo módulos fiscais (SAT, NFC-e, SPED) e soluções voltadas 
-                            à gestão da produção (PCP, estrutura de produto, consumo de materiais e processos por máquinas).
-                            Atuei também como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution Systems), 
-                            prestando suporte a ambientes industriais, com análise de incidentes, tratativa de chamados, validação de 
-                            dados, análise de logs e apoio à operação de sistemas em produção. Possuo experiência prática em desenvolvimento 
-                            backend e frontend, aplicações web e desktop, integração de sistemas, criação e consumo de APIs, bancos de dados 
-                            relacionais, versionamento de código, deploy de aplicações e ambientes Windows Server/IIS, com foco em soluções 
-                            alinhadas às necessidades do negócio.
+                            Ao longo da carreira, atuei em ambientes de ERP, comércio e indústria, com experiência em desenvolvimento, 
+                            implantação, configuração, treinamento e suporte a sistemas. Possuo vivência com módulos fiscais 
+                            (SAT, NFC-e e SPED) e com soluções voltadas à gestão da produção, como PCP, estrutura de produto, 
+                            consumo de materiais e processos por máquinas.
+                            Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution System), 
+                            prestando suporte a ambientes industriais, realizando análise de incidentes, tratativa de chamados, 
+                            validação de dados, análise de logs e apoio à operação de sistemas em produção.
+                            Possuo experiência prática em desenvolvimento backend e frontend, aplicações web e desktop, integração 
+                            de sistemas, criação e consumo de APIs, bancos de dados relacionais, versionamento de código, deploy de 
+                            aplicações e ambientes Windows Server/IIS, sempre com foco em soluções alinhadas às necessidades do negócio.
                         </p>
 
                         <div className="flex gap-4 justify-center md:justify-start">
