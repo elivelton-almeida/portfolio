@@ -505,12 +505,12 @@ export default function App() {
                             Atuei em ambientes de ERP, comércio e indústria, com experiência em desenvolvimento, implantação, 
                             configuração e suporte a sistemas, incluindo módulos fiscais (SAT, NFC-e, SPED) e soluções voltadas 
                             à gestão da produção (PCP, estrutura de produto, consumo de materiais e processos por máquinas).
-                            Atuei também como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0, prestando suporte a ambientes 
-                            industriais, com análise de incidentes, tratativa de chamados, validação de dados, análise de logs e 
-                            apoio à operação de sistemas em produção. Possuo experiência prática em desenvolvimento backend e frontend, 
-                            aplicações web e desktop, integração de sistemas, criação e consumo de APIs, bancos de dados relacionais, 
-                            versionamento de código, deploy de aplicações e ambientes Windows Server/IIS, com foco em soluções alinhadas 
-                            às necessidades do negócio.
+                            Atuei também como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution Systems), 
+                            prestando suporte a ambientes industriais, com análise de incidentes, tratativa de chamados, validação de 
+                            dados, análise de logs e apoio à operação de sistemas em produção. Possuo experiência prática em desenvolvimento 
+                            backend e frontend, aplicações web e desktop, integração de sistemas, criação e consumo de APIs, bancos de dados 
+                            relacionais, versionamento de código, deploy de aplicações e ambientes Windows Server/IIS, com foco em soluções 
+                            alinhadas às necessidades do negócio.
                         </p>
 
                         <div className="flex gap-4 justify-center md:justify-start">
