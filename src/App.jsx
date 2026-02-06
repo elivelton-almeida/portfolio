@@ -503,7 +503,7 @@ export default function App() {
 
       <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
         Profissional formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, 
-        com 12 anos de experiência em Tecnologia da Informação, atuando nas áreas de Suporte Técnico 
+        com 11 anos de experiência em Tecnologia da Informação, atuando nas áreas de Suporte Técnico 
         e Desenvolvimento de Sistemas, sendo 3 anos dedicados diretamente ao desenvolvimento de software.
         Ao longo da carreira, atuei em ambientes de ERP, comércio e indústria, com experiência em desenvolvimento, 
         implantação, configuração, treinamento e suporte a sistemas. Possuo vivência com módulos fiscais 
