@@ -494,7 +494,7 @@ export default function App() {
                         <h1 className="text-5xl font-bold mb-3">Elivelton Almeida</h1>
 
                         <p className="text-xl mb-4">
-                            Desenvolvedor Full Stack • Analista de Sistemas • Engenheiro de Software
+                            Analista e Desenvolvedor FullStack
                         </p>
 
                         <p className="text-gray-300 mb-8">
