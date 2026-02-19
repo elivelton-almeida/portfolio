@@ -506,9 +506,8 @@ export default function App() {
         com 11 anos de experiência em Tecnologia da Informação, atuando nas áreas de Suporte Técnico 
         e Desenvolvimento de Sistemas, sendo 3 anos dedicados diretamente ao desenvolvimento de software.
         Ao longo da carreira, atuei em ambientes de ERP, comércio e indústria, com experiência em desenvolvimento, 
-        implantação, configuração, treinamento e suporte a sistemas. Possuo vivência com módulos fiscais 
-        (SAT, NFC-e e SPED) e com soluções voltadas à gestão da produção, como PCP, estrutura de produto, 
-        consumo de materiais e processos por máquinas.
+        implantação, configuração, treinamento e suporte a sistemas. Possuo vivência com módulos fiscais e com 
+        soluções voltadas à gestão da produção industrial.
         Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution System), 
         prestando suporte a ambientes industriais, realizando análise de incidentes, tratativa de chamados, 
         validação de dados, análise de logs e apoio à operação de sistemas em produção.
