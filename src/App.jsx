@@ -437,6 +437,99 @@ export default function App() {
             ],
             video: BASE_PATH + 'videos/reservas.mp4',
             level: 'Finalizado'
+        },
+        {
+            title: 'WeatherNow App',
+            description: 'Aplicação web de previsão do tempo em tempo real com gráficos interativos, consumo de API externa e arquitetura cloud-ready com deploy automatizado.',
+
+            problem: 'Disponibilizar uma aplicação moderna para consulta de clima em tempo real, integrando dados externos e apresentando informações de forma visual e intuitiva para o usuário.',
+
+            approach: 'O projeto foi desenvolvido com arquitetura baseada em API REST utilizando ASP.NET Core 9.0. ' +
+                'O backend consome dados de uma API pública de clima, realiza o mapeamento das respostas e expõe endpoints próprios para consumo do frontend. ' +
+                'A aplicação foi containerizada com Docker e publicada no Render, enquanto o frontend foi hospedado na Netlify. ' +
+                'O sistema inclui endpoint de previsão atual e forecast, além de gráficos dinâmicos para visualização de temperatura e condições climáticas.',
+
+            contribution: 'Desenvolvi toda a API REST em ASP.NET Core 9.0, incluindo integração com API externa, modelagem de dados, Services, Controllers e tratamento de erros. ' +
+                'Realizei a configuração de Docker, deploy em ambiente Linux (Render) e integração contínua via GitHub. Também desenvolvi o frontend responsivo e integração com os endpoints.',
+
+            technologies: [
+                'React',
+                'Tailwind',
+                'JavaScript',
+                'HTML5',
+                'CSS3',
+                'Docker',
+                'Render (Cloud Deploy)',
+                'Netlify',
+                'REST API',
+                'HTTP Client',
+                'JSON',
+                'Chart.js'
+            ],
+
+            github: 'https://github.com/elivelton-almeida/WeatherNow-web',
+            live: 'https://weathernow-elivelton.netlify.app/',
+
+            icon: <FaCloudSun className="text-3xl mb-2 text-blue-500" />,
+
+            images: [
+                BASE_PATH + 'images/weathernow1.jpg',
+                BASE_PATH + 'images/weathernow2.jpg',
+                BASE_PATH + 'images/weathernow3.jpg',
+                BASE_PATH + 'images/weathernow4.jpg',
+                BASE_PATH + 'images/weathernow5.jpg',
+                BASE_PATH + 'images/weathernow6.jpg',
+                BASE_PATH + 'images/weathernow7.jpg',
+                BASE_PATH + 'images/weathernow8.jpg'
+            ],
+
+            video: BASE_PATH + 'videos/weathernow.mp4',
+
+            level: 'Finalizado'
+        },
+        {
+            title: 'WeatherNow API',
+
+            description: 'API REST para consulta de previsão do tempo em tempo real, com integração a serviço externo de clima, arquitetura em camadas e deploy containerizado em ambiente Linux.',
+
+            problem: 'Criar uma API robusta e organizada para centralizar o consumo de dados meteorológicos externos, abstraindo regras de negócio, tratamento de erros e padronização de respostas para clientes consumidores.',
+
+            approach: 'A API foi desenvolvida utilizando ASP.NET Core 9.0 seguindo arquitetura em camadas (Controllers, Services e Models). ' +
+                'O serviço consome uma API pública de clima através de HttpClient, realiza o mapeamento dos DTOs e expõe endpoints próprios para consulta de clima atual e previsão (forecast). ' +
+                'O projeto inclui tratamento de exceções, validação de parâmetros e padronização de respostas JSON. ' +
+                'A aplicação foi containerizada com Docker e publicada no Render em ambiente Linux.',
+
+            contribution: 'Desenvolvi toda a estrutura da API REST, incluindo definição de endpoints OpenWeather, implementação da camada de serviços, modelagem de respostas (DTOs), integração com API externa e tratamento de erros. ' +
+                'Configurei o Dockerfile, realizei o processo de build e publish com .NET 9 e efetuei o deploy em cloud utilizando Render.',
+
+            technologies: [
+                'ASP.NET Core 9.0 Web API',
+                'C#',
+                'REST',
+                'HttpClient',
+                'JSON',
+                'Docker',
+                'Render',
+                'Linux Environment'
+            ],
+
+            github: 'https://github.com/elivelton-almeida/WeatherNow.API',
+
+            live: null,
+
+            icon: <FaCloudSun className="text-3xl mb-2 text-blue-500" />,
+
+            images: [
+                BASE_PATH + 'images/weathernow-api1.jpg',
+                BASE_PATH + 'images/weathernow-api2.jpg',
+                BASE_PATH + 'images/weathernow-api3.jpg',
+                BASE_PATH + 'images/weathernow-api4.jpg',
+                BASE_PATH + 'images/weathernow-api5.jpg'
+            ],
+
+            video: null,
+
+            level: 'Finalizado'
         }
     ]
 
@@ -511,9 +604,6 @@ export default function App() {
         Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution System), 
         prestando suporte a ambientes industriais, realizando análise de incidentes, tratativa de chamados, 
         validação de dados, análise de logs e apoio à operação de sistemas em produção.
-        Possuo experiência prática em desenvolvimento backend e frontend, aplicações web e desktop, integração 
-        de sistemas, criação e consumo de APIs, bancos de dados relacionais, versionamento de código, deploy de 
-        aplicações e ambientes Windows Server/IIS, sempre com foco em soluções alinhadas às necessidades do negócio.
       </p>
 
       <div className="flex flex-wrap gap-4 justify-center md:justify-start">
