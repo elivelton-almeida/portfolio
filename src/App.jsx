@@ -30,6 +30,7 @@ import {
     FaCertificate,
     FaMobileAlt,
     FaShieldAlt,
+    FaCloudSun,
     FaDocker,
     FaLanguage,
     FaBookOpen,
