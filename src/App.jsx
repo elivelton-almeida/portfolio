@@ -1,7 +1,4 @@
-sob// CSS
 import './App.css';
-
-// React
 import { useState } from 'react';
 
 // UI Components
