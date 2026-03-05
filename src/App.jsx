@@ -596,16 +596,20 @@ export default function App() {
                         </p>
 
                         <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
-                            Profissional de Tecnologia da Informação com 11 anos de experiência em Suporte Técnico em ambientes
-                            comerciais e industriais, e 3 anos de experiência em Desenvolvimento Web e Desktop, integração de
-                            sistemas e suporte a ambientes de produção.
-
-                            Formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, atuo na criação,
-                            manutenção e evolução de sistemas, unindo experiência em suporte técnico, análise de sistemas e
-                            desenvolvimento de software.
-
-                            Essa combinação permite compreender tanto as necessidades do negócio quanto a implementação
-                            de soluções tecnológicas eficientes.
+                            Profissional de Tecnologia da Informação com 11 anos de experiência em
+                            Suporte Técnico e Desenvolvimento de Sistemas, com atuação em ambientes corporativos,
+                            industriais e sistemas ERP.
+                            Sou formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software,
+                            com experiência em suporte a sistemas, análise de incidentes, implantação, configuração e
+                            treinamento de usuários, além de desenvolvimento de aplicações web e desktop.
+                            Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES (Manufacturing Execution System),
+                            prestando suporte a ambientes industriais, realizando tratativa de chamados, análise de logs,
+                            validação de dados e apoio à operação de sistemas em produção, contribuindo para a continuidade
+                            e estabilidade dos processos.
+                            Além da atuação em suporte, também possuo experiência em desenvolvimento e integração de sistemas
+                            utilizando tecnologias do ecossistema .NET, trabalhando com aplicações web, APIs e manipulação de dados.
+                            Minha experiência combina suporte técnico, análise de sistemas e desenvolvimento, permitindo
+                            compreender tanto as necessidades do negócio quanto a implementação técnica das soluções.
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
