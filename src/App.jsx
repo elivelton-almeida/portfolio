@@ -1,4 +1,4 @@
-// CSS
+sob// CSS
 import './App.css';
 
 // React
@@ -567,98 +567,99 @@ export default function App() {
 
             {/* NAVBAR */}
             <Navbar />
-            
+
             {/* HERO */}
-<section
-  id="inicio"
-  className="relative min-h-screen md:h-screen flex items-start md:items-center justify-center bg-black/50 text-white px-6 pt-10 overflow-x-hidden"
->
-  <div className="flex flex-col md:flex-row items-center gap-10 w-full max-w-6xl mx-auto">
+            <section
+                id="inicio"
+                className="relative min-h-screen md:h-screen flex items-start md:items-center justify-center bg-black/50 text-white px-6 pt-10 overflow-x-hidden"
+            >
+                <div className="flex flex-col md:flex-row items-center gap-10 w-full max-w-6xl mx-auto">
 
-    {/* FOTO */}
-    <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden shadow-xl border-4 border-white/20 flex items-center justify-center shrink-0">
-      <img
-        src={BASE_PATH + "foto.jpg"}
-        alt="Elivelton Almeida"
-        className="w-full h-full object-cover"
-      />
-    </div>
+                    {/* FOTO */}
+                    <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden shadow-xl border-4 border-white/20 flex items-center justify-center shrink-0">
+                        <img
+                            src={BASE_PATH + "foto.jpg"}
+                            alt="Elivelton Almeida"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
 
-    {/* TEXTO */}
-    <div className="text-center md:text-left max-w-xl w-full">
+                    {/* TEXTO */}
+                    <div className="text-center md:text-left max-w-xl w-full">
 
-      <h1 className="text-5xl font-bold mb-3">
-        Elivelton Almeida
-      </h1>
+                        <h1 className="text-5xl font-bold mb-3">
+                            Elivelton Almeida
+                        </h1>
 
-      <p className="text-xl mb-4">
-        Analista e Desenvolvedor FullStack
-      </p>
+                        <p className="text-xl mb-4">
+                            Analista e Desenvolvedor FullStack
+                        </p>
 
-      <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
-        Profissional formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, 
-        com 11 anos de experiência em Tecnologia da Informação, atuando nas áreas de Suporte Técnico 
-        e Desenvolvimento de Sistemas, sendo 3 anos dedicados diretamente ao desenvolvimento de software.
-        Ao longo da carreira, atuei em ambientes de ERP, comércio e indústria, com experiência em desenvolvimento, 
-        implantação, configuração, treinamento e suporte a sistemas. Possuo vivência com módulos fiscais e com 
-        soluções voltadas à gestão da produção industrial.
-        Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution System), 
-        prestando suporte a ambientes industriais, realizando análise de incidentes, tratativa de chamados, 
-        validação de dados, análise de logs e apoio à operação de sistemas em produção.
-      </p>
+                        <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
+                            Profissional de Tecnologia da Informação com 11 anos de experiência em Suporte Técnico em ambientes
+                            comerciais e industriais, e 3 anos de experiência em Desenvolvimento Web e Desktop, integração de
+                            sistemas e suporte a ambientes de produção.
 
-      <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                            Formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, atuo na criação,
+                            manutenção e evolução de sistemas, unindo experiência em suporte técnico, análise de sistemas e
+                            desenvolvimento de software.
 
-        <Button
-  onClick={() => window.scrollTo({ top: 800, behavior: "smooth" })}
-  className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
->
-  <FaIdBadge />
-  Ver Portfólio
-</Button>
+                            Essa combinação permite compreender tanto as necessidades do negócio quanto a implementação
+                            de soluções tecnológicas eficientes.
+                        </p>
 
-<Button
-  asChild
-  className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
->
-  <a
-    href="https://wa.me/5515996697754"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <FaWhatsapp className="text-xl" />
-    Fale comigo
-  </a>
-</Button>
+                        <div className="flex flex-wrap gap-4 justify-center md:justify-start">
 
-<Button
-  asChild
-  className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
->
-  <a href="mailto:eliveltoncarriel.almeida@hotmail.com">
-    <FaEnvelope className="text-xl" />
-    E-mail
-  </a>
-</Button>
+                            <Button
+                                onClick={() => window.scrollTo({ top: 800, behavior: "smooth" })}
+                                className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
+                            >
+                                <FaIdBadge />
+                                Ver Portfólio
+                            </Button>
 
-<Button
-  asChild
-  className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
->
-  <a
-    href="https://www.linkedin.com/in/eliveltonalmeida/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <FaLinkedin className="text-xl" />
-    LinkedIn
-  </a>
-</Button>
+                            <Button
+                                asChild
+                                className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
+                            >
+                                <a
+                                    href="https://wa.me/5515996697754"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaWhatsapp className="text-xl" />
+                                    Fale comigo
+                                </a>
+                            </Button>
 
-      </div>
-    </div>
-  </div>
-</section>
+                            <Button
+                                asChild
+                                className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
+                            >
+                                <a href="mailto:eliveltoncarriel.almeida@hotmail.com">
+                                    <FaEnvelope className="text-xl" />
+                                    E-mail
+                                </a>
+                            </Button>
+
+                            <Button
+                                asChild
+                                className="flex items-center gap-2 transition-all duration-300 hover:brightness-125 hover:-translate-y-1 active:scale-95"
+                            >
+                                <a
+                                    href="https://www.linkedin.com/in/eliveltonalmeida/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaLinkedin className="text-xl" />
+                                    LinkedIn
+                                </a>
+                            </Button>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             {/* Experiencias */}
             <FadeInSection>
