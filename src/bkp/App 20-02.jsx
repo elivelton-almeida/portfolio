@@ -1,4 +1,7 @@
+// CSS
 import './App.css';
+
+// React
 import { useState } from 'react';
 
 // UI Components
@@ -17,7 +20,9 @@ import Modal from './components/Modal';
 import {
     FaIdBadge,
     FaWhatsapp,
+    FaCode,
     FaLaptopCode,
+    FaDatabase,
     FaServer,
     FaTools,
     FaProjectDiagram,
@@ -25,7 +30,6 @@ import {
     FaCertificate,
     FaMobileAlt,
     FaShieldAlt,
-    FaCloudSun,
     FaDocker,
     FaLanguage,
     FaBookOpen,
@@ -35,20 +39,8 @@ import {
     FaExclamationTriangle,
     FaUserCheck,
     FaGithub,
-    FaExternalLinkAlt,
-    FaDatabase,
-    FaCode,
-    FaReact,
-    FaHtml5,
-    FaCss3Alt,
-    FaJs
+    FaExternalLinkAlt
 } from 'react-icons/fa'
-
-import {
-    SiDotnet,
-    SiMysql,
-    SiPostgresql
-} from "react-icons/si";
 
 // Feather Icons
 import {
@@ -67,7 +59,7 @@ import {
     SiGraphql
 } from '@icons-pack/react-simple-icons'
 
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 
 export default function App() {
     const [modalOpen, setModalOpen] = useState(false)
@@ -128,89 +120,61 @@ export default function App() {
 
     const experiencias = [
         {
-            cargo: 'Analista de Sistemas JR',
+            cargo: 'Analista de Sistemas',
             empresa: 'Sitio da Mata',
             periodo: 'set 2024 - abr 2025',
-            local: 'Tietê-SP · Remota · Temporário',
-            descricao: `• Desenvolvimento de aplicações web utilizando HTML, CSS, React, C# e ASP .NET Core
-            • Análise e especificação de requisitos para evolução de sistemas
-            • Execução de testes funcionais e validação de qualidade das aplicações
-            • Gestão de backlog e priorização de demandas em apoio ao time de desenvolvimento
-            • Modelagem de sistemas e processos utilizando diagramas UML`,
-            descricaoLonga: `• Desenvolvimento de aplicações web utilizando HTML, CSS, React, C# e ASP .NET Core
-            • Análise e especificação de requisitos para evolução de sistemas
-            • Execução de testes funcionais e validação de qualidade das aplicações
-            • Gestão de backlog e priorização de demandas em apoio ao time de desenvolvimento
-            • Modelagem de sistemas e processos utilizando diagramas UML
-            • Monitoramento de versões e Testes manuais`,
+            local: 'Tietê, SP · Remota',
+            descricao: `Análise, especificação e implantação de sistemas e aplicativos de gestão de coletas, compras e fornecedores. 
+                Elaboração e execução de testes para validação e qualidade dos sistemas desenvolvidos. 
+                Gestão de backlog de funcionalidades e priorização de demandas. Criação e manutenção de diagramas UML. 
+                Colaboração com equipes de desenvolvimento terceiros.`,
+            descricaoLonga: `Análise, especificação e implantação de sistemas e aplicativos de gestão de coletas, compras e fornecedores, garantindo alinhamento com as necessidades do negócio.
+            Elaboração e execução de testes para validação e qualidade dos sistemas desenvolvidos.
+            Gestão de backlog de funcionalidades e priorização de demandas, garantindo a entrega dentro dos prazos estabelecidos.
+            Criação e manutenção de diagramas UML para mapeamento de processos e estruturas de sistemas.
+            Colaboração com equipes de desenvolvimento terceiros.`,
         },
         {
-            cargo: 'Analista de Desenvolvimento PL',
+            cargo: 'Analista de Desenvolvimento e Suporte',
             empresa: 'PPI-Multitask grupo WEG',
             periodo: 'jun 2022 - jan 2024',
-            local: 'São Paulo-SP · Remota',
-            descricao: `• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
-            • Desenvolvimento de aplicações em C#, .NET e ASP .NET Core para automação de processos e migração de dados entre sistemas
-            • Manipulação e consultas em SQL Server, incluindo validação e análise de dados
-            • Levantamento e análise de requisitos para suporte à implementação e melhoria de funcionalidades
-            • Apoio no desenvolvimento e integração de Web APIs, conectando sistemas Movidesk e ServiceNow
-            • Análise de incidentes e troubleshooting, incluindo investigação de logs e suporte à correção de problemas em produção`,
-            descricaoLonga: `• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
-            • Desenvolvimento de aplicações em C#, .NET e ASP .NET Core para automação de processos e migração de dados entre sistemas
-            • Manipulação e consultas em SQL Server, incluindo validação e análise de dados
-            • Levantamento e análise de requisitos para suporte à implementação e melhoria de funcionalidades
-            • Apoio no desenvolvimento e integração de Web APIs, conectando sistemas Movidesk e ServiceNow
-            • Monitoramento de versões e Testes manuais`,
+            local: 'São Paulo, SP · Remota',
+            descricao: `Analista de Suporte N1 das Soluções PC-Factory MES. Desenvolvimento de soluções para migração de dados de Tickets, anexos e seus relacionamentos. 
+            Levantamento de requisitos, diagramas UML e desenvolvimento da API de criação e atualização de tickets entre Movidesk e ServiceNow.`,
+            descricaoLonga: `Analista de Suporte N1 das Soluções PC-Factory MES (Manufacturing Execution Systems), e responsável pelo desenvolvimento de soluções para a 
+            migração de dados de Tickets, anexos e seus relacionamentos entre diferentes bases de dados do suporte. Conduzi o levantamento de Requisitos, desenvolvi diagramas
+            UML e participei do desenvolvimento da API de criação e atualização de tickets entre os sistemas Movidesk e ServiceNow, garantindo a integração eficiente e precisa
+            das informações entre essas plataformas.`,
         },
         {
-            cargo: 'Analista de Desenvolvimento JR',
+            cargo: 'Analista de Suporte',
             empresa: 'Um Ponto Dois Software de Gestão',
             periodo: 'set 2019 - mai 2022',
-            local: 'Laranjal Paulista-SP · Presencial',
-            descricao: `• Desenvolvimento e manutenção de aplicações utilizando C#, .NET e GeneXus
-            • Conversão, migração e validação de dados entre bases de clientes e sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Análise e resolução de incidentes, incluindo validação de dados e análise de logs
-            • Implantação de sistemas de gestão para comércios e indústrias
-            • Suporte técnico em infraestrutura de TI (hardware, redes, VPN, AWS e bancos de dados).
-            • Treinamento de usuários e apoio na adoção dos sistemas implantados`,
-            descricaoLonga: `• Desenvolvimento e manutenção de aplicações utilizando C#, .NET e GeneXus
-            • Conversão, migração e validação de dados entre bases de clientes e sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Análise e resolução de incidentes, incluindo validação de dados e análise de logs
-            • Implantação de sistemas de gestão para comércios e indústrias
-            • Suporte técnico em infraestrutura de TI (hardware, redes, VPN, AWS e bancos de dados).
-            • Monitoramento de versões e Testes manuais`,
+            local: 'Laranjal Paulista, SP · Presencial',
+            descricao: `Suporte, implantação e treinamento de sistemas para indústria e comércio. Conversão de dados, testes, suporte em hardware, redes, VPN, AWS, 
+            bancos de dados MySQL e SQL Server. Desenvolvimento em .NET C# e GeneXus, software de backups automatizados e ferramenta de autoconfiguração de ambientes Windows.`,
+            descricaoLonga: `Atuei no suporte, implantação e treinamento de sistemas para indústria e comércio, sendo responsável pela conversão de dados entre bases de dados 
+            de clientes e pela realização de testes. Prestei suporte em hardware, redes, VPN, AWS e bancos de dados MySQL e SQL Server. Realizei desenvolvimento em .NET C# e
+            GeneXus em nível júnior, além de desenvolver software para backups automatizados de bases de dados e uma ferramenta para autoconfiguração de ambientes Windows,
+            voltada para a pré-implantação de sistemas.`,
         },
         {
             cargo: 'Analista de Suporte SR',
             empresa: 'Coam Informática',
             periodo: 'jan 2014 - jul 2019',
-            local: 'Tietê-SP · Presencial',
-            descricao: `• Suporte e implantação de sistemas de gestão para empresas do setor comercial
-            • Treinamento e capacitação de usuários para utilização e melhor aproveitamento dos sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Execução de testes e identificação de melhorias em funcionalidades dos sistemas
-            • Suporte técnico em infraestrutura de TI, incluindo hardware e redes corporativas
-            • Monitoramento de versões e Testes manuais`,
-            descricaoLonga: `• Suporte e implantação de sistemas de gestão para empresas do setor comercial
-            • Treinamento e capacitação de usuários para utilização e melhor aproveitamento dos sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Execução de testes e identificação de melhorias em funcionalidades dos sistemas
-            • Suporte técnico em infraestrutura de TI, incluindo hardware e redes corporativas
-            • Monitoramento de versões e Testes manuais`,
+            local: 'Tietê, SP · Presencial',
+            descricao: `Suporte, implantações e treinamentos de sistemas de gestão. Análise de melhoria contínua, execução de testes, suporte em hardware e redes corporativas.`,
+            descricaoLonga: `Prestei suporte, realizei implantações e conduzi treinamentos de sistemas de gestão para comércio, abrangendo funcionalidades como NF-e, SAT CF-e, 
+            caixa, estoque, relatórios e aplicativos de atendimento de comandas. Fui responsável pela análise de melhoria contínua nas soluções de sistemas, bem como pela execução
+            de testes manuais diários.`,
         },
         {
             cargo: 'Estagiário de TI',
             empresa: 'Microcamp',
-            periodo: 'jan 2009 - dez 2012',
-            local: 'Tietê-SP · Presencial',
-            descricao: `• Monitoramento e manutenção de redes e computadores em ambiente educacional
-            •	Suporte técnico básico a usuários e equipamentos
-            •	Prevenção de falhas e manutenção preventiva em equipamentos de informática`,
-            descricaoLonga: `• Monitoramento e manutenção de redes e computadores em ambiente educacional
-            •	Suporte técnico básico a usuários e equipamentos
-            •	Prevenção de falhas e manutenção preventiva em equipamentos de informática`,
+            periodo: 'jan 2009 - dez 2010',
+            local: 'Tietê, SP · Presencial',
+            descricao: `Monitoramento contínuo do funcionamento de computadores, prevenção de falhas para garantir operacionalidade e desempenho dos sistemas.`,
+            descricaoLonga: `Realizei o monitoramento contínuo do funcionamento de computadores, atuando na prevenção de falhas para garantir a operacionalidade e o desempenho dos sistemas.`,
         }
     ]
 
@@ -475,7 +439,7 @@ export default function App() {
             level: 'Finalizado'
         },
         {
-            title: 'WeatherNow App',
+            title: 'WeatherNow',
             description: 'Aplicação web de previsão do tempo em tempo real com gráficos interativos, consumo de API externa e arquitetura cloud-ready com deploy automatizado.',
 
             problem: 'Disponibilizar uma aplicação moderna para consulta de clima em tempo real, integrando dados externos e apresentando informações de forma visual e intuitiva para o usuário.',
@@ -489,21 +453,23 @@ export default function App() {
                 'Realizei a configuração de Docker, deploy em ambiente Linux (Render) e integração contínua via GitHub. Também desenvolvi o frontend responsivo e integração com os endpoints.',
 
             technologies: [
-                'React',
-                'Tailwind',
-                'JavaScript',
-                'HTML5',
-                'CSS3',
+                'ASP.NET Core 9.0 Web API',
+                'C#',
                 'Docker',
                 'Render (Cloud Deploy)',
                 'Netlify',
                 'REST API',
                 'HTTP Client',
                 'JSON',
+                'React',
+                'JavaScript',
+                'HTML5',
+                'CSS3',
                 'Chart.js'
             ],
 
             github: 'https://github.com/elivelton-almeida/WeatherNow-web',
+
             live: 'https://weathernow-elivelton.netlify.app/',
 
             icon: <FaCloudSun className="text-3xl mb-2 text-blue-500" />,
@@ -511,56 +477,7 @@ export default function App() {
             images: [
                 BASE_PATH + 'images/weathernow1.jpg',
                 BASE_PATH + 'images/weathernow2.jpg',
-                BASE_PATH + 'images/weathernow3.jpg',
-                BASE_PATH + 'images/weathernow4.jpg',
-                BASE_PATH + 'images/weathernow5.jpg',
-                BASE_PATH + 'images/weathernow6.jpg',
-                BASE_PATH + 'images/weathernow7.jpg',
-                BASE_PATH + 'images/weathernow8.jpg'
-            ],
-
-            video: BASE_PATH + 'videos/weathernow.mp4',
-
-            level: 'Finalizado'
-        },
-        {
-            title: 'WeatherNow API',
-
-            description: 'API REST para consulta de previsão do tempo em tempo real, com integração a serviço externo de clima, arquitetura em camadas e deploy containerizado em ambiente Linux.',
-
-            problem: 'Criar uma API robusta e organizada para centralizar o consumo de dados meteorológicos externos, abstraindo regras de negócio, tratamento de erros e padronização de respostas para clientes consumidores.',
-
-            approach: 'A API foi desenvolvida utilizando ASP.NET Core 9.0 seguindo arquitetura em camadas (Controllers, Services e Models). ' +
-                'O serviço consome uma API pública de clima através de HttpClient, realiza o mapeamento dos DTOs e expõe endpoints próprios para consulta de clima atual e previsão (forecast). ' +
-                'O projeto inclui tratamento de exceções, validação de parâmetros e padronização de respostas JSON. ' +
-                'A aplicação foi containerizada com Docker e publicada no Render em ambiente Linux.',
-
-            contribution: 'Desenvolvi toda a estrutura da API REST, incluindo definição de endpoints OpenWeather, implementação da camada de serviços, modelagem de respostas (DTOs), integração com API externa e tratamento de erros. ' +
-                'Configurei o Dockerfile, realizei o processo de build e publish com .NET 9 e efetuei o deploy em cloud utilizando Render.',
-
-            technologies: [
-                'ASP.NET Core 9.0 Web API',
-                'C#',
-                'REST',
-                'HttpClient',
-                'JSON',
-                'Docker',
-                'Render',
-                'Linux Environment'
-            ],
-
-            github: 'https://github.com/elivelton-almeida/WeatherNow.API',
-
-            live: null,
-
-            icon: <FaCloudSun className="text-3xl mb-2 text-blue-500" />,
-
-            images: [
-                BASE_PATH + 'images/weathernow-api1.jpg',
-                BASE_PATH + 'images/weathernow-api2.jpg',
-                BASE_PATH + 'images/weathernow-api3.jpg',
-                BASE_PATH + 'images/weathernow-api4.jpg',
-                BASE_PATH + 'images/weathernow-api5.jpg'
+                BASE_PATH + 'images/weathernow3.jpg'
             ],
 
             video: null,
@@ -627,20 +544,19 @@ export default function App() {
                         </h1>
 
                         <p className="text-xl mb-4">
-                            Desenvolvedor Full Stack .NET | Analista de Sistemas
+                            Analista e Desenvolvedor FullStack
                         </p>
 
                         <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
-                            Profissional de Tecnologia da Informação com 11 anos de experiência em TI, atuando no desenvolvimento
-                            e suporte de sistemas em ambientes corporativos e industriais.
-                            Sou formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, com experiência no
-                            desenvolvimento de aplicações web e desktop utilizando ecossistema .NET, além de integração
-                            de sistemas por meio de Web APIs e manipulação de dados em SQL.
-                            Ao longo da minha trajetória atuei como Analista de Sistemas e Analista de Desenvolvimento, participando de
-                            atividades como levantamento de requisitos, análise de incidentes, integração entre sistemas e evolução
-                            de aplicações em produção.
-                            Minha experiência combina análise de sistemas, desenvolvimento e suporte técnico, permitindo compreender
-                            tanto as necessidades do negócio quanto a implementação técnica das soluções
+                            Profissional formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software,
+                            com 12 anos de experiência em Tecnologia da Informação, atuando nas áreas de Suporte Técnico
+                            e Desenvolvimento de Sistemas, sendo 3 anos dedicados diretamente ao desenvolvimento de software.
+                            Ao longo da carreira, atuei em ambientes de ERP, comércio e indústria, com experiência em desenvolvimento,
+                            implantação, configuração, treinamento e suporte a sistemas. Possuo vivência com módulos fiscais e com soluções
+                            voltadas à gestão da produção.
+                            Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES 4.0 (Manufacturing Execution System),
+                            prestando suporte a ambientes industriais, realizando análise de incidentes, tratativa de chamados,
+                            validação de dados, análise de logs e apoio à operação de sistemas em produção.
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
@@ -690,81 +606,10 @@ export default function App() {
                                     LinkedIn
                                 </a>
                             </Button>
-
                         </div>
                     </div>
                 </div>
-
             </section>
-
-            {/* TECNOLOGIAS */}
-            <FadeInSection>
-                <section className="relative bg-black text-gray-300 py-16 px-6 overflow-hidden">
-
-                    {/* FUNDO GRADIENTE */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 via-purple-900/20 to-blue-900/20 animate-gradient"></div>
-
-                    {/* CONTEÚDO */}
-                    <div className="relative max-w-5xl mx-auto text-center">
-
-                        <h2 className="text-3xl font-bold text-white mb-10 flex items-center justify-center gap-3">
-                            <FaLaptopCode className="text-blue-400" />
-                            Tecnologias
-                        </h2>
-
-                        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center">
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <FaCode className="text-4xl text-purple-400" />
-                                <span>C#</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <SiDotnet className="text-4xl text-purple-500" />
-                                <span>.NET</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <FaReact className="text-4xl text-cyan-400" />
-                                <span>React</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <FaJs className="text-4xl text-yellow-400" />
-                                <span>JavaScript</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <FaHtml5 className="text-4xl text-orange-500" />
-                                <span>HTML</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <FaCss3Alt className="text-4xl text-blue-400" />
-                                <span>CSS</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <FaDatabase className="text-4xl text-green-400" />
-                                <span>SQL Server</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <SiMysql className="text-4xl text-blue-500" />
-                                <span>MySQL</span>
-                            </div>
-
-                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
-                                <SiPostgresql className="text-4xl text-blue-300" />
-                                <span>PostgreSQL</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </section>
-            </FadeInSection>
 
             {/* Experiencias */}
             <FadeInSection>
