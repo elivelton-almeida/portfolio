@@ -17,9 +17,7 @@ import Modal from './components/Modal';
 import {
     FaIdBadge,
     FaWhatsapp,
-    FaCode,
     FaLaptopCode,
-    FaDatabase,
     FaServer,
     FaTools,
     FaProjectDiagram,
@@ -37,8 +35,20 @@ import {
     FaExclamationTriangle,
     FaUserCheck,
     FaGithub,
-    FaExternalLinkAlt
+    FaExternalLinkAlt,
+    FaDatabase,
+    FaCode,
+    FaReact,
+    FaHtml5,
+    FaCss3Alt,
+    FaJs
 } from 'react-icons/fa'
+
+import {
+    SiDotnet,
+    SiMysql,
+    SiPostgresql
+} from "react-icons/si";
 
 // Feather Icons
 import {
@@ -57,7 +67,7 @@ import {
     SiGraphql
 } from '@icons-pack/react-simple-icons'
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function App() {
     const [modalOpen, setModalOpen] = useState(false)
@@ -118,61 +128,89 @@ export default function App() {
 
     const experiencias = [
         {
-            cargo: 'Analista de Sistemas',
+            cargo: 'Analista de Sistemas JR',
             empresa: 'Sitio da Mata',
             periodo: 'set 2024 - abr 2025',
-            local: 'Tietê, SP · Remota',
-            descricao: `Análise, especificação e implantação de sistemas e aplicativos de gestão de coletas, compras e fornecedores. 
-                Elaboração e execução de testes para validação e qualidade dos sistemas desenvolvidos. 
-                Gestão de backlog de funcionalidades e priorização de demandas. Criação e manutenção de diagramas UML. 
-                Colaboração com equipes de desenvolvimento terceiros.`,
-            descricaoLonga: `Análise, especificação e implantação de sistemas e aplicativos de gestão de coletas, compras e fornecedores, garantindo alinhamento com as necessidades do negócio.
-            Elaboração e execução de testes para validação e qualidade dos sistemas desenvolvidos.
-            Gestão de backlog de funcionalidades e priorização de demandas, garantindo a entrega dentro dos prazos estabelecidos.
-            Criação e manutenção de diagramas UML para mapeamento de processos e estruturas de sistemas.
-            Colaboração com equipes de desenvolvimento terceiros.`,
+            local: 'Tietê-SP · Remota · Temporário',
+            descricao: `• Desenvolvimento de aplicações web utilizando HTML, CSS, React, C# e ASP .NET Core
+            • Análise e especificação de requisitos para evolução de sistemas
+            • Execução de testes funcionais e validação de qualidade das aplicações
+            • Gestão de backlog e priorização de demandas em apoio ao time de desenvolvimento
+            • Modelagem de sistemas e processos utilizando diagramas UML`,
+            descricaoLonga: `• Desenvolvimento de aplicações web utilizando HTML, CSS, React, C# e ASP .NET Core
+            • Análise e especificação de requisitos para evolução de sistemas
+            • Execução de testes funcionais e validação de qualidade das aplicações
+            • Gestão de backlog e priorização de demandas em apoio ao time de desenvolvimento
+            • Modelagem de sistemas e processos utilizando diagramas UML
+            • Monitoramento de versões e Testes manuais`,
         },
         {
-            cargo: 'Analista de Desenvolvimento e Suporte',
+            cargo: 'Analista de Desenvolvimento PL',
             empresa: 'PPI-Multitask grupo WEG',
             periodo: 'jun 2022 - jan 2024',
-            local: 'São Paulo, SP · Remota',
-            descricao: `Analista de Suporte N1 das Soluções PC-Factory MES. Desenvolvimento de soluções para migração de dados de Tickets, anexos e seus relacionamentos. 
-            Levantamento de requisitos, diagramas UML e desenvolvimento da API de criação e atualização de tickets entre Movidesk e ServiceNow.`,
-            descricaoLonga: `Analista de Suporte N1 das Soluções PC-Factory MES (Manufacturing Execution Systems), e responsável pelo desenvolvimento de soluções para a 
-            migração de dados de Tickets, anexos e seus relacionamentos entre diferentes bases de dados do suporte. Conduzi o levantamento de Requisitos, desenvolvi diagramas
-            UML e participei do desenvolvimento da API de criação e atualização de tickets entre os sistemas Movidesk e ServiceNow, garantindo a integração eficiente e precisa
-            das informações entre essas plataformas.`,
+            local: 'São Paulo-SP · Remota',
+            descricao: `• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
+            • Desenvolvimento de aplicações em C#, .NET e ASP .NET Core para automação de processos e migração de dados entre sistemas
+            • Manipulação e consultas em SQL Server, incluindo validação e análise de dados
+            • Levantamento e análise de requisitos para suporte à implementação e melhoria de funcionalidades
+            • Apoio no desenvolvimento e integração de Web APIs, conectando sistemas Movidesk e ServiceNow
+            • Análise de incidentes e troubleshooting, incluindo investigação de logs e suporte à correção de problemas em produção`,
+            descricaoLonga: `• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
+            • Desenvolvimento de aplicações em C#, .NET e ASP .NET Core para automação de processos e migração de dados entre sistemas
+            • Manipulação e consultas em SQL Server, incluindo validação e análise de dados
+            • Levantamento e análise de requisitos para suporte à implementação e melhoria de funcionalidades
+            • Apoio no desenvolvimento e integração de Web APIs, conectando sistemas Movidesk e ServiceNow
+            • Monitoramento de versões e Testes manuais`,
         },
         {
-            cargo: 'Analista de Suporte',
+            cargo: 'Analista de Desenvolvimento JR',
             empresa: 'Um Ponto Dois Software de Gestão',
             periodo: 'set 2019 - mai 2022',
-            local: 'Laranjal Paulista, SP · Presencial',
-            descricao: `Suporte, implantação e treinamento de sistemas para indústria e comércio. Conversão de dados, testes, suporte em hardware, redes, VPN, AWS, 
-            bancos de dados MySQL e SQL Server. Desenvolvimento em .NET C# e GeneXus, software de backups automatizados e ferramenta de autoconfiguração de ambientes Windows.`,
-            descricaoLonga: `Atuei no suporte, implantação e treinamento de sistemas para indústria e comércio, sendo responsável pela conversão de dados entre bases de dados 
-            de clientes e pela realização de testes. Prestei suporte em hardware, redes, VPN, AWS e bancos de dados MySQL e SQL Server. Realizei desenvolvimento em .NET C# e
-            GeneXus em nível júnior, além de desenvolver software para backups automatizados de bases de dados e uma ferramenta para autoconfiguração de ambientes Windows,
-            voltada para a pré-implantação de sistemas.`,
+            local: 'Laranjal Paulista-SP · Presencial',
+            descricao: `• Desenvolvimento e manutenção de aplicações utilizando C#, .NET e GeneXus
+            • Conversão, migração e validação de dados entre bases de clientes e sistemas
+            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
+            • Análise e resolução de incidentes, incluindo validação de dados e análise de logs
+            • Implantação de sistemas de gestão para comércios e indústrias
+            • Suporte técnico em infraestrutura de TI (hardware, redes, VPN, AWS e bancos de dados).
+            • Treinamento de usuários e apoio na adoção dos sistemas implantados`,
+            descricaoLonga: `• Desenvolvimento e manutenção de aplicações utilizando C#, .NET e GeneXus
+            • Conversão, migração e validação de dados entre bases de clientes e sistemas
+            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
+            • Análise e resolução de incidentes, incluindo validação de dados e análise de logs
+            • Implantação de sistemas de gestão para comércios e indústrias
+            • Suporte técnico em infraestrutura de TI (hardware, redes, VPN, AWS e bancos de dados).
+            • Monitoramento de versões e Testes manuais`,
         },
         {
             cargo: 'Analista de Suporte SR',
             empresa: 'Coam Informática',
             periodo: 'jan 2014 - jul 2019',
-            local: 'Tietê, SP · Presencial',
-            descricao: `Suporte, implantações e treinamentos de sistemas de gestão. Análise de melhoria contínua, execução de testes, suporte em hardware e redes corporativas.`,
-            descricaoLonga: `Prestei suporte, realizei implantações e conduzi treinamentos de sistemas de gestão para comércio, abrangendo funcionalidades como NF-e, SAT CF-e, 
-            caixa, estoque, relatórios e aplicativos de atendimento de comandas. Fui responsável pela análise de melhoria contínua nas soluções de sistemas, bem como pela execução
-            de testes manuais diários.`,
+            local: 'Tietê-SP · Presencial',
+            descricao: `• Suporte e implantação de sistemas de gestão para empresas do setor comercial
+            • Treinamento e capacitação de usuários para utilização e melhor aproveitamento dos sistemas
+            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
+            • Execução de testes e identificação de melhorias em funcionalidades dos sistemas
+            • Suporte técnico em infraestrutura de TI, incluindo hardware e redes corporativas
+            • Monitoramento de versões e Testes manuais`,
+            descricaoLonga: `• Suporte e implantação de sistemas de gestão para empresas do setor comercial
+            • Treinamento e capacitação de usuários para utilização e melhor aproveitamento dos sistemas
+            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
+            • Execução de testes e identificação de melhorias em funcionalidades dos sistemas
+            • Suporte técnico em infraestrutura de TI, incluindo hardware e redes corporativas
+            • Monitoramento de versões e Testes manuais`,
         },
         {
             cargo: 'Estagiário de TI',
             empresa: 'Microcamp',
-            periodo: 'jan 2009 - dez 2010',
-            local: 'Tietê, SP · Presencial',
-            descricao: `Monitoramento contínuo do funcionamento de computadores, prevenção de falhas para garantir operacionalidade e desempenho dos sistemas.`,
-            descricaoLonga: `Realizei o monitoramento contínuo do funcionamento de computadores, atuando na prevenção de falhas para garantir a operacionalidade e o desempenho dos sistemas.`,
+            periodo: 'jan 2009 - dez 2012',
+            local: 'Tietê-SP · Presencial',
+            descricao: `• Monitoramento e manutenção de redes e computadores em ambiente educacional
+            •	Suporte técnico básico a usuários e equipamentos
+            •	Prevenção de falhas e manutenção preventiva em equipamentos de informática`,
+            descricaoLonga: `• Monitoramento e manutenção de redes e computadores em ambiente educacional
+            •	Suporte técnico básico a usuários e equipamentos
+            •	Prevenção de falhas e manutenção preventiva em equipamentos de informática`,
         }
     ]
 
@@ -589,24 +627,20 @@ export default function App() {
                         </h1>
 
                         <p className="text-xl mb-4">
-                            Analista e Desenvolvedor FullStack
+                            Desenvolvedor Full Stack .NET | Analista de Sistemas
                         </p>
 
                         <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
-                            Profissional de Tecnologia da Informação com 11 anos de experiência em
-                            Suporte Técnico e Desenvolvimento de Sistemas, com atuação em ambientes corporativos,
-                            industriais e sistemas ERP.
-                            Sou formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software,
-                            com experiência em suporte a sistemas, análise de incidentes, implantação, configuração e
-                            treinamento de usuários, além de desenvolvimento de aplicações web e desktop.
-                            Atuei como Analista de Suporte N1 das soluções PC-FACTORY MES (Manufacturing Execution System),
-                            prestando suporte a ambientes industriais, realizando tratativa de chamados, análise de logs,
-                            validação de dados e apoio à operação de sistemas em produção, contribuindo para a continuidade
-                            e estabilidade dos processos.
-                            Além da atuação em suporte, também possuo experiência em desenvolvimento e integração de sistemas
-                            utilizando tecnologias do ecossistema .NET, trabalhando com aplicações web, APIs e manipulação de dados.
-                            Minha experiência combina suporte técnico, análise de sistemas e desenvolvimento, permitindo
-                            compreender tanto as necessidades do negócio quanto a implementação técnica das soluções.
+                            Profissional de Tecnologia da Informação com 11 anos de experiência em TI, atuando no desenvolvimento
+                            e suporte de sistemas em ambientes corporativos e industriais.
+                            Sou formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, com experiência no
+                            desenvolvimento de aplicações web e desktop utilizando C#, .NET e ASP.NET Core, além de integração
+                            de sistemas por meio de Web APIs e manipulação de dados em SQL.
+                            Ao longo da minha trajetória atuei como Analista de Sistemas e Analista de Desenvolvimento, participando de
+                            atividades como levantamento de requisitos, análise de incidentes, integração entre sistemas e evolução
+                            de aplicações em produção.
+                            Minha experiência combina análise de sistemas, desenvolvimento e suporte técnico, permitindo compreender
+                            tanto as necessidades do negócio quanto a implementação técnica das soluções
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
@@ -660,7 +694,77 @@ export default function App() {
                         </div>
                     </div>
                 </div>
+
             </section>
+
+            {/* TECNOLOGIAS */}
+            <FadeInSection>
+                <section className="relative bg-black text-gray-300 py-16 px-6 overflow-hidden">
+
+                    {/* FUNDO GRADIENTE */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 via-purple-900/20 to-blue-900/20 animate-gradient"></div>
+
+                    {/* CONTEÚDO */}
+                    <div className="relative max-w-5xl mx-auto text-center">
+
+                        <h2 className="text-3xl font-bold text-white mb-10 flex items-center justify-center gap-3">
+                            <FaLaptopCode className="text-blue-400" />
+                            Tecnologias
+                        </h2>
+
+                        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center">
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <FaCode className="text-4xl text-purple-400" />
+                                <span>C#</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <SiDotnet className="text-4xl text-purple-500" />
+                                <span>.NET</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <FaReact className="text-4xl text-cyan-400" />
+                                <span>React</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <FaJs className="text-4xl text-yellow-400" />
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <FaHtml5 className="text-4xl text-orange-500" />
+                                <span>HTML</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <FaCss3Alt className="text-4xl text-blue-400" />
+                                <span>CSS</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <FaDatabase className="text-4xl text-green-400" />
+                                <span>SQL Server</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <SiMysql className="text-4xl text-blue-500" />
+                                <span>MySQL</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <SiPostgresql className="text-4xl text-blue-300" />
+                                <span>PostgreSQL</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+            </FadeInSection>
 
             {/* Experiencias */}
             <FadeInSection>
