@@ -68,7 +68,7 @@ import {
 } from '@icons-pack/react-simple-icons'
 
 import { motion } from "framer-motion";
-
+import Typewriter from "./components/Typewriter";
 export default function App() {
     const [modalOpen, setModalOpen] = useState(false)
     const [selectedProject, setSelectedProject] = useState(null)
@@ -623,24 +623,37 @@ export default function App() {
                     <div className="text-center md:text-left max-w-xl w-full">
 
                         <h1 className="text-5xl font-bold mb-3">
-                            Elivelton Almeida
+                            <Typewriter
+                                words={["Elivelton Almeida"]}
+                                typingSpeed={90}
+                                loop={false}
+                            />
                         </h1>
 
                         <p className="text-xl mb-4">
-                            Desenvolvedor Full Stack .NET | Analista de Sistemas
+                            <Typewriter
+                                words={[
+                                    "Desenvolvedor Full Stack .NET",
+                                    "Analista de Sistemas",
+                                    "Especialista em Suporte TI"
+                                ]}
+                                typingSpeed={70}
+                                deletingSpeed={40}
+                                delay={2000}
+                                loop={true}
+                            />
                         </p>
 
                         <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
-                            Profissional de Tecnologia da Informação com 11 anos de experiência em TI, atuando no desenvolvimento
-                            e suporte de sistemas em ambientes corporativos e industriais.
-                            Sou formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, com experiência no
-                            desenvolvimento de aplicações web e desktop utilizando ecossistema .NET, além de integração
-                            de sistemas por meio de Web APIs e manipulação de dados em SQL.
-                            Ao longo da minha trajetória atuei como Analista de Sistemas e Analista de Desenvolvimento, participando de
-                            atividades como levantamento de requisitos, análise de incidentes, integração entre sistemas e evolução
-                            de aplicações em produção.
-                            Minha experiência combina análise de sistemas, desenvolvimento e suporte técnico, permitindo compreender
-                            tanto as necessidades do negócio quanto a implementação técnica das soluções
+                                Profissional de Tecnologia da Informação com 11 anos de experiência em TI, atuando no desenvolvimento
+                                e suporte de sistemas em ambientes corporativos e industriais.
+                                Sou formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, com experiência no desenvolvimento 
+                                de aplicações web e desktop utilizando ecossistema .NET, além de integração de sistemas por meio de Web APIs 
+                                e manipulação de dados em SQL.
+                                Ao longo da minha trajetória atuei como Analista de Sistemas e Analista de Desenvolvimento, participando de atividades 
+                                como levantamento de requisitos, análise de incidentes, integração entre sistemas e evolução de aplicações em produção.
+                                Minha experiência combina análise de sistemas, desenvolvimento e suporte técnico, permitindo compreender tanto as
+                                necessidades do negócio quanto a implementação técnica das soluções
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
