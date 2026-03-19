@@ -645,15 +645,15 @@ export default function App() {
                         </p>
 
                         <p className="text-gray-300 mb-8 break-words whitespace-normal leading-relaxed">
-                                Profissional de Tecnologia da Informação com 11 anos de experiência em TI, atuando no desenvolvimento
-                                e suporte de sistemas em ambientes corporativos e industriais.
-                                Sou formado em Análise e Desenvolvimento de Sistemas e Engenharia de Software, com experiência no desenvolvimento 
-                                de aplicações web e desktop utilizando ecossistema .NET, além de integração de sistemas por meio de Web APIs 
-                                e manipulação de dados em SQL.
-                                Ao longo da minha trajetória atuei como Analista de Sistemas e Analista de Desenvolvimento, participando de atividades 
-                                como levantamento de requisitos, análise de incidentes, integração entre sistemas e evolução de aplicações em produção.
-                                Minha experiência combina análise de sistemas, desenvolvimento e suporte técnico, permitindo compreender tanto as
-                                necessidades do negócio quanto a implementação técnica das soluções
+                            Profissional de Tecnologia da Informação com mais de 10 anos de experiência,
+                            atuando em desenvolvimento de software, análise de sistemas e suporte técnico
+                            em ambientes corporativos e industriais. Especialista no ecossistema .NET,
+                            com experiência em desenvolvimento Full Stack, criação e integração de APIs,
+                            manipulação e migração de dados e sustentação de aplicações.
+                            Sólida vivência em levantamento de requisitos, modelagem de sistemas, integração
+                            entre plataformas e resolução de incidentes, além de atuação com bancos de dados
+                            relacionais e arquiteturas modernas como MVC e aplicações em camadas.
+                            Experiência prática com tecnologias como C#, ASP.NET Core, React, SQL Server e MySQL.
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
@@ -735,6 +735,11 @@ export default function App() {
                             <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
                                 <SiDotnet className="text-4xl text-purple-500" />
                                 <span>.NET</span>
+                            </div>
+
+                            <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
+                                <FaCode className="text-4xl text-purple-500" />
+                                <span>GeneXus</span>
                             </div>
 
                             <div className="flex flex-col items-center gap-2 hover:scale-110 transition">
