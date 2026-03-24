@@ -132,17 +132,18 @@ export default function App() {
             empresa: 'Sitio da Mata',
             periodo: 'set 2024 - abr 2025',
             local: 'Tietê-SP · Remota · Temporário',
-            descricao: `• Desenvolvimento de aplicações web utilizando HTML, CSS, React, C# e ASP .NET Core
-            • Análise e especificação de requisitos para evolução de sistemas
-            • Execução de testes funcionais e validação de qualidade das aplicações
-            • Gestão de backlog e priorização de demandas em apoio ao time de desenvolvimento
-            • Modelagem de sistemas e processos utilizando diagramas UML`,
-            descricaoLonga: `• Desenvolvimento de aplicações web utilizando HTML, CSS, React, C# e ASP .NET Core
-            • Análise e especificação de requisitos para evolução de sistemas
-            • Execução de testes funcionais e validação de qualidade das aplicações
-            • Gestão de backlog e priorização de demandas em apoio ao time de desenvolvimento
-            • Modelagem de sistemas e processos utilizando diagramas UML
-            • Monitoramento de versões e Testes manuais`,
+            descricao: `• Desenvolvimento e manutenção de aplicações web (Ecommerce) em HTML, CSS, React, C# e ASP.NET Core, arquitetura MVC e em Camadas 
+            • Criação e consumo de APIs REST para comunicação entre serviços
+            • Levantamento de requisitos
+            • Gestão de backlog e priorização de demandas
+            • Modelagem de sistemas e processos utilizando UML
+            • Execução de testes manuais para validação de funcionalidades e garantia de qualidade`,
+            descricaoLonga: `• Desenvolvimento e manutenção de aplicações web (Ecommerce) em HTML, CSS, React, C# e ASP.NET Core, arquitetura MVC e em Camadas 
+            • Criação e consumo de APIs REST para comunicação entre serviços
+            • Levantamento de requisitos
+            • Gestão de backlog e priorização de demandas
+            • Modelagem de sistemas e processos utilizando UML
+            • Execução de testes manuais para validação de funcionalidades e garantia de qualidade`,
         },
         {
             cargo: 'Analista de Desenvolvimento PL',
@@ -150,67 +151,71 @@ export default function App() {
             periodo: 'jun 2022 - jan 2024',
             local: 'São Paulo-SP · Remota',
             descricao: `• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
-            • Desenvolvimento de aplicações em C#, .NET e ASP .NET Core para automação de processos e migração de dados entre sistemas
-            • Manipulação e consultas em SQL Server, incluindo validação e análise de dados
-            • Levantamento e análise de requisitos para suporte à implementação e melhoria de funcionalidades
-            • Apoio no desenvolvimento e integração de Web APIs, conectando sistemas Movidesk e ServiceNow
-            • Análise de incidentes e troubleshooting, incluindo investigação de logs e suporte à correção de problemas em produção`,
+            • Desenvolvimento e manutenção de aplicações web e desktop (Industrial) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
+            • Implementação de arquitetura de microserviços para separação de módulos do sistema
+            • Integração entre serviços utilizando RabbitMQ para mensageria e processamento assíncrono
+            • Criação e consumo de APIs REST para comunicação entre serviços
+            • Apoio no desenvolvimento de integração utilizando Web APIs, integrando sistemas Movidesk e ServiceNow
+            • Implementação, manutenção e otimização de consultas em banco de dados SQL Server
+            • Publicação e configuração de aplicações web em Microsoft IIS
+            • Integrações e análise de incidentes , investigação de logs e suporte à correção de problemas em ambiente produção
+            • Execução de testes manuais para validação de funcionalidades`,
             descricaoLonga: `• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
-            • Desenvolvimento de aplicações em C#, .NET e ASP .NET Core para automação de processos e migração de dados entre sistemas
-            • Manipulação e consultas em SQL Server, incluindo validação e análise de dados
-            • Levantamento e análise de requisitos para suporte à implementação e melhoria de funcionalidades
-            • Apoio no desenvolvimento e integração de Web APIs, conectando sistemas Movidesk e ServiceNow
-            • Monitoramento de versões e Testes manuais`,
+            • Desenvolvimento e manutenção de aplicações web e desktop (Industrial) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
+            • Implementação de arquitetura de microserviços para separação de módulos do sistema
+            • Integração entre serviços utilizando RabbitMQ para mensageria e processamento assíncrono
+            • Criação e consumo de APIs REST para comunicação entre serviços
+            • Apoio no desenvolvimento de integração utilizando Web APIs, integrando sistemas Movidesk e ServiceNow
+            • Implementação, manutenção e otimização de consultas em banco de dados SQL Server
+            • Publicação e configuração de aplicações web em Microsoft IIS
+            • Integrações e análise de incidentes , investigação de logs e suporte à correção de problemas em ambiente produção
+            • Execução de testes manuais para validação de funcionalidades`,
         },
         {
             cargo: 'Analista de Desenvolvimento JR',
             empresa: 'Um Ponto Dois Software de Gestão',
             periodo: 'set 2019 - mai 2022',
             local: 'Laranjal Paulista-SP · Presencial',
-            descricao: `• Desenvolvimento e manutenção de aplicações utilizando C#, .NET e GeneXus
-            • Conversão, migração e validação de dados entre bases de clientes e sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Análise e resolução de incidentes, incluindo validação de dados e análise de logs
+            descricao: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
+            • Implementação de arquitetura de microserviços para separação de módulos do sistema
+            • Criação e consumo de APIs REST para comunicação entre serviços
+            • Implementação, manutenção e otimização de consultas em bancos de dados SQL Server, MySQL e PostgreSQL
+            • Publicação e configuração de aplicações web em Microsoft IIS
             • Implantação de sistemas de gestão para comércios e indústrias
-            • Suporte técnico em infraestrutura de TI (hardware, redes, VPN, AWS e bancos de dados).
-            • Treinamento de usuários e apoio na adoção dos sistemas implantados`,
-            descricaoLonga: `• Desenvolvimento e manutenção de aplicações utilizando C#, .NET e GeneXus
-            • Conversão, migração e validação de dados entre bases de clientes e sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Análise e resolução de incidentes, incluindo validação de dados e análise de logs
+            • Conversão, migração e validação de dados entre bases de clientes`,
+            descricaoLonga: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
+            • Implementação de arquitetura de microserviços para separação de módulos do sistema
+            • Criação e consumo de APIs REST para comunicação entre serviços
+            • Implementação, manutenção e otimização de consultas em bancos de dados SQL Server, MySQL e PostgreSQL
+            • Publicação e configuração de aplicações web em Microsoft IIS
             • Implantação de sistemas de gestão para comércios e indústrias
-            • Suporte técnico em infraestrutura de TI (hardware, redes, VPN, AWS e bancos de dados).
-            • Monitoramento de versões e Testes manuais`,
+            • Conversão, migração e validação de dados entre bases de clientes`,
         },
         {
             cargo: 'Analista de Suporte SR',
             empresa: 'Coam Informática',
             periodo: 'jan 2014 - jul 2019',
             local: 'Tietê-SP · Presencial',
-            descricao: `• Suporte e implantação de sistemas de gestão para empresas do setor comercial
-            • Treinamento e capacitação de usuários para utilização e melhor aproveitamento dos sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Execução de testes e identificação de melhorias em funcionalidades dos sistemas
-            • Suporte técnico em infraestrutura de TI, incluindo hardware e redes corporativas
-            • Monitoramento de versões e Testes manuais`,
-            descricaoLonga: `• Suporte e implantação de sistemas de gestão para empresas do setor comercial
-            • Treinamento e capacitação de usuários para utilização e melhor aproveitamento dos sistemas
-            • Manipulação e consultas em bancos de dados MySQL, SQL Server e PostgreSQL
-            • Execução de testes e identificação de melhorias em funcionalidades dos sistemas
-            • Suporte técnico em infraestrutura de TI, incluindo hardware e redes corporativas
-            • Monitoramento de versões e Testes manuais`,
+            descricao: `• Implantação e suporte de sistemas para Comércios
+            • Treinamento de usuários
+            • Manutenção em bancos de dados SQL Server, MySQL e PostgreSQL
+            • Conversão, migração e validação de dados entre bases de clientes
+            • Execução de testes manuais para validação de funcionalidades
+            • Suporte técnico em infraestrutura de TI (Hardwares e Redes corporativas)`,
+            descricaoLonga: `• Implantação e suporte de sistemas para Comércios
+            • Treinamento de usuários
+            • Manutenção em bancos de dados SQL Server, MySQL e PostgreSQL
+            • Conversão, migração e validação de dados entre bases de clientes
+            • Execução de testes manuais para validação de funcionalidades
+            • Suporte técnico em infraestrutura de TI (Hardwares e Redes corporativas)`,
         },
         {
             cargo: 'Estagiário de TI',
             empresa: 'Microcamp',
             periodo: 'jan 2009 - dez 2012',
             local: 'Tietê-SP · Presencial',
-            descricao: `• Monitoramento e manutenção de redes e computadores em ambiente educacional
-            •	Suporte técnico básico a usuários e equipamentos
-            •	Prevenção de falhas e manutenção preventiva em equipamentos de informática`,
-            descricaoLonga: `• Monitoramento e manutenção de redes e computadores em ambiente educacional
-            •	Suporte técnico básico a usuários e equipamentos
-            •	Prevenção de falhas e manutenção preventiva em equipamentos de informática`,
+            descricao: `• Suporte técnico em infraestrutura de TI (Hardwares e Redes)`,
+            descricaoLonga: `• Suporte técnico em infraestrutura de TI (Hardwares e Redes)`,
         }
     ]
 
@@ -653,7 +658,6 @@ export default function App() {
                             Sólida vivência em levantamento de requisitos, modelagem de sistemas, integração
                             entre plataformas e resolução de incidentes, além de atuação com bancos de dados
                             relacionais e arquiteturas modernas como MVC e aplicações em camadas.
-                            Experiência prática com tecnologias como C#, ASP.NET Core, React, SQL Server e MySQL.
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
