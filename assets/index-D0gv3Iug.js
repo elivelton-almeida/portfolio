@@ -56,8 +56,8 @@ Error generating stack: `+l.message+`
             • Levantamento de requisitos
             • Gestão de backlog e priorização de demandas
             • Modelagem de sistemas e processos utilizando UML
-            • Execução de testes manuais para validação de funcionalidades e garantia de qualidade`},{cargo:"Analista de Desenvolvimento PL",empresa:"PPI-Multitask grupo WEG",periodo:"jun 2022 - jan 2024",local:"São Paulo-SP · Remota",descricao:`• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
-            • Desenvolvimento e manutenção de aplicações web e desktop (Industrial) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
+            • Execução de testes manuais para validação de funcionalidades e garantia de qualidade`},{cargo:"Analista de Desenvolvimento PL",empresa:"PPI-Multitask WEG",periodo:"jun 2022 - jan 2024",local:"São Paulo-SP · Remota",descricao:`• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
+            • Desenvolvimento e manutenção de aplicações web e desktop (Industria) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Integração entre serviços utilizando RabbitMQ para mensageria e processamento assíncrono
             • Criação e consumo de APIs REST para comunicação entre serviços
@@ -65,8 +65,8 @@ Error generating stack: `+l.message+`
             • Implementação, manutenção e otimização de consultas em banco de dados SQL Server
             • Publicação e configuração de aplicações web em Microsoft IIS
             • Integrações e análise de incidentes , investigação de logs e suporte à correção de problemas em ambiente produção
-            • Execução de testes manuais para validação de funcionalidades`,descricaoLonga:`• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
-            • Desenvolvimento e manutenção de aplicações web e desktop (Industrial) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
+            • Execução de testes manuais para validação de funcionalidades`,descricaoLonga:`• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
+            • Desenvolvimento e manutenção de aplicações web e desktop (Industria) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Integração entre serviços utilizando RabbitMQ para mensageria e processamento assíncrono
             • Criação e consumo de APIs REST para comunicação entre serviços
@@ -74,7 +74,7 @@ Error generating stack: `+l.message+`
             • Implementação, manutenção e otimização de consultas em banco de dados SQL Server
             • Publicação e configuração de aplicações web em Microsoft IIS
             • Integrações e análise de incidentes , investigação de logs e suporte à correção de problemas em ambiente produção
-            • Execução de testes manuais para validação de funcionalidades`},{cargo:"Analista de Desenvolvimento JR",empresa:"Um Ponto Dois Software de Gestão",periodo:"set 2019 - mai 2022",local:"Laranjal Paulista-SP · Presencial",descricao:`• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
+            • Execução de testes manuais para validação de funcionalidades`},{cargo:"Analista de Desenvolvimento JR",empresa:"Um Ponto Dois Software de Gestão",periodo:"set 2019 - maio 2022",local:"Laranjal Paulista-SP · Presencial",descricao:`• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Criação e consumo de APIs REST para comunicação entre serviços
             • Implementação, manutenção e otimização de consultas em bancos de dados SQL Server, MySQL e PostgreSQL
