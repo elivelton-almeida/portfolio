@@ -150,7 +150,7 @@ export default function App() {
             empresa: 'PPI-Multitask grupo WEG',
             periodo: 'jun 2022 - jan 2024',
             local: 'São Paulo-SP · Remota',
-            descricao: `• Atuação como Analista N1 em soluções PC-Factory MES (Manufacturing Execution System) em ambiente industrial
+            descricao: `• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
             • Desenvolvimento e manutenção de aplicações web e desktop (Industrial) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Integração entre serviços utilizando RabbitMQ para mensageria e processamento assíncrono
@@ -1133,7 +1133,7 @@ export default function App() {
                     onClose={closeModal}
                     title={selectedProject.title}
                     images={selectedProject.images}
-                    onImageClick={setExpandedImage}   // <<<<< ENVIA PARA O MODAL
+                    onImageClick={setExpandedImage}   // ENVIA PARA O MODAL
                 >
                     <div className="space-y-6">
 
