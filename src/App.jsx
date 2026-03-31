@@ -11,6 +11,7 @@ import { Button } from './components/ui/button';
 import Navbar from './components/Navbar';
 import FadeInSection from './components/FadeInSection';
 import Modal from './components/Modal';
+import FloatingButtons from './components/FloatingButtons';
 
 // Icons - React Icons
 // Font Awesome
@@ -604,6 +605,9 @@ export default function App() {
 
     return (
         <div className="min-h-screen bg-gray-50">
+
+            {/* Botões flutuantes */}
+            <FloatingButtons />
 
             {/* NAVBAR */}
             <Navbar />
@@ -1341,36 +1345,49 @@ export default function App() {
 
                                 <li>
                                     <a
-                                        href="https://github.com/EliveltonProgrammer"
+                                        href="https://github.com/elivelton-almeida"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="hover:text-white transition-colors"
+                                        className="flex items-center gap-2 hover:text-white transition-colors"
                                     >
+                                        <FaGithub />
                                         GitHub
                                     </a>
                                 </li>
 
                                 <li>
                                     <a
-                                        href="https://www.linkedin.com/in/eliveltonalmeida/"
+                                        href="https://www.linkedin.com/in/eliveltonalmeida"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="hover:text-white transition-colors"
+                                        className="flex items-center gap-2 hover:text-white transition-colors"
                                     >
+                                        <FaLinkedin />
                                         LinkedIn
                                     </a>
                                 </li>
 
-                                <li>
+                                <li className="flex flex-col gap-2">
                                     <a
                                         href="https://drive.google.com/file/d/1wddhVTZA1JKC7GoANBuFLydI53EM9DFz/view?usp=sharing"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="hover:text-white transition-colors"
+                                        className="flex items-center gap-2 hover:text-white transition-colors"
                                     >
-                                        📄 Baixar Currículo (PDF)
+                                        <FaBookOpen />
+                                        Currículo (PT-BR)
                                     </a>
                                 </li>
+
+                                <a
+                                    href="https://drive.google.com/file/d/1c6smU3mFDXZ425Uo9Pxx-Fmhsg1yl2We/view?usp=sharing"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2 hover:text-white transition-colors"
+                                >
+                                    <FaBookOpen />
+                                    Resume (EN)
+                                </a>
 
                             </ul>
                         </div>
@@ -1381,30 +1398,45 @@ export default function App() {
 
                             <div className="space-y-2 text-gray-400">
 
-                                {/* Telefone → abrir WhatsApp ao clicar */}
+                                {/* WhatsApp */}
                                 <a
                                     href="https://wa.me/5515996697754"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="block hover:text-white transition-colors"
+                                    className="flex items-center gap-2 hover:text-white transition-colors"
                                 >
-                                    📱 (15) 99669-7754
+                                    <FaWhatsapp />
+                                    +55 (15) 99669-7754
                                 </a>
 
                                 {/* Email */}
                                 <a
                                     href="mailto:eliveltoncarriel.almeida@hotmail.com"
-                                    className="block hover:text-white transition-colors"
+                                    className="flex items-center gap-2 hover:text-white transition-colors"
                                 >
-                                    ✉️ eliveltoncarriel.almeida@hotmail.com
+                                    <FaEnvelope />
+                                    eliveltoncarriel.almeida@hotmail.com
                                 </a>
+
                             </div>
                         </div>
                     </div>
 
                     {/* COPYRIGHT */}
                     <div className="border-t border-gray-800 mt-10 pt-6 text-center text-gray-400">
-                        <p>&copy; {new Date().getFullYear()} Desenvolvido por Elivelton</p>
+                        <p>
+                            &copy; {new Date().getFullYear()} Desenvolvido por Elivelton C. de Almeida
+                        </p>
+
+                        <a
+                            href="https://github.com/elivelton-almeida"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2 mt-2 hover:text-white transition-colors"
+                        >
+                            <FaGithub />
+                            Implantado com GitHub Pages
+                        </a>
                     </div>
                 </div>
             </footer>
