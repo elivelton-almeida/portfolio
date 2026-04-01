@@ -69,6 +69,7 @@ import {
 } from '@icons-pack/react-simple-icons'
 
 import { motion } from "framer-motion";
+
 import Typewriter from "./components/Typewriter";
 export default function App() {
     const [modalOpen, setModalOpen] = useState(false)
@@ -603,7 +604,7 @@ export default function App() {
         }
     ]
 
-    const projetosFuturos = [
+    /*const projetosFuturos = [
         {
             title: 'Sistema & App de Alerta em Tempo Real',
             description: 'Sistema de monitoramento de ocorrências em escolas com alertas sonoros, localização do local via GPS, e aplicativo mobile para envio de Alertas, informações importantes e chat.',
@@ -619,7 +620,7 @@ export default function App() {
             images: null,
             level: "Planejamento"
         }
-    ]
+    ]*/
 
     const openModal = (project) => {
         setSelectedProject(project)
