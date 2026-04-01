@@ -129,10 +129,38 @@ export default function App() {
 
     const experiencias = [
         {
+            cargo: 'Analista de Sistemas e Desenvolvimento',
+            empresa: 'Freelancer - Projeto internacional',
+            periodo: 'maio 2025 - jan 2026',
+            local: 'Hafnarfjörður, Islândia · Remota',
+            descricao: `• Desenvolvimento de soluções customizadas para gestão do restaurante, incluindo controle de mesas, 
+            ordens de produção e aplicativo de reservas (App Booking), utilizando C# .NET, ASP.NET Core, ASP.NET Core Web API,
+            Blazor, MVC, HTML e CSS com Razor Pages
+            • Desenvolvimento e implementação de endpoints de API
+            • Integração com API do Twilio (SMS) para envio de notificações a clientes
+            • Implementação de notificações push utilizando Google Firebase
+            • Análise e melhoria de sistemas
+            • Levantamento e documentação de requisitos
+            • Implantação da aplicação em servidor local utilizando Microsoft IIS
+            • Implantação em servidor web dedicado com ambiente .NET (MonsterASP)
+            • Configuração de domínio, subdomínio e certificados SSL`,
+            descricaoLonga: `• Desenvolvimento de soluções customizadas para gestão do restaurante, incluindo controle de mesas, 
+            ordens de produção e aplicativo de reservas (App Booking), utilizando C# .NET, ASP.NET Core, ASP.NET Core Web API,
+            Blazor, MVC, HTML e CSS com Razor Pages
+            • Desenvolvimento e implementação de endpoints de API
+            • Integração com API do Twilio (SMS) para envio de notificações a clientes
+            • Implementação de notificações push utilizando Google Firebase
+            • Análise e melhoria de sistemas
+            • Levantamento e documentação de requisitos
+            • Implantação da aplicação em servidor local utilizando Microsoft IIS
+            • Implantação em servidor web dedicado com ambiente .NET (MonsterASP)
+            • Configuração de domínio, subdomínio e certificados SSL`,
+        },
+        {
             cargo: 'Analista de Sistemas JR',
             empresa: 'Sitio da Mata',
             periodo: 'set 2024 - abr 2025',
-            local: 'Tietê-SP · Remota · Temporário',
+            local: 'Tietê-SP · Presencial · Temporário',
             descricao: `• Desenvolvimento e manutenção de aplicações web (Ecommerce) em HTML, CSS, React, C# e ASP.NET Core, arquitetura MVC e em Camadas 
             • Criação e consumo de APIs REST para comunicação entre serviços
             • Levantamento de requisitos
