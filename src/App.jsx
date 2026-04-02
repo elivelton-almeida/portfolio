@@ -131,9 +131,10 @@ export default function App() {
     const experiencias = [
         {
             cargo: 'Analista de Sistemas e Desenvolvimento',
-            empresa: 'Freelancer - Projeto internacional',
+            empresa: 'Ahansen Restaurant · Freelancer · Projeto internacional',
             periodo: 'maio 2025 - jan 2026',
             local: 'Hafnarfjörður, Islândia · Remota',
+            pais: 'is', // código ISO do país
             descricao: `• Desenvolvimento de soluções customizadas para gestão do restaurante, incluindo controle de mesas, 
             ordens de produção e aplicativo de reservas (App Booking), utilizando C# .NET, ASP.NET Core, ASP.NET Core Web API,
             Blazor, MVC, HTML e CSS com Razor Pages
@@ -162,6 +163,7 @@ export default function App() {
             empresa: 'Sitio da Mata',
             periodo: 'set 2024 - abr 2025',
             local: 'Tietê-SP · Presencial · Temporário',
+            pais: 'br',
             descricao: `• Desenvolvimento e manutenção de aplicações web (Ecommerce) em HTML, CSS, React, C# e ASP.NET Core, arquitetura MVC e em Camadas 
             • Criação e consumo de APIs REST para comunicação entre serviços
             • Levantamento de requisitos
@@ -178,8 +180,9 @@ export default function App() {
         {
             cargo: 'Analista de Desenvolvimento PL',
             empresa: 'PPI-Multitask WEG',
-            periodo: 'jun 2022 - jan 2024',
+            periodo: 'jun 2022 - jul 2024',
             local: 'São Paulo-SP · Remota',
+            pais: 'br',
             descricao: `• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
             • Desenvolvimento e manutenção de aplicações web e desktop (Industria) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
@@ -204,8 +207,9 @@ export default function App() {
         {
             cargo: 'Analista de Desenvolvimento JR',
             empresa: 'Um Ponto Dois Software de Gestão',
-            periodo: 'set 2019 - maio 2022',
+            periodo: 'set 2019 - mai 2022',
             local: 'Laranjal Paulista-SP · Presencial',
+            pais: 'br',
             descricao: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Criação e consumo de APIs REST para comunicação entre serviços
@@ -226,6 +230,7 @@ export default function App() {
             empresa: 'Coam Informática',
             periodo: 'jan 2014 - jul 2019',
             local: 'Tietê-SP · Presencial',
+            pais: 'br',
             descricao: `• Implantação e suporte de sistemas para Comércios
             • Treinamento de usuários
             • Manutenção em bancos de dados SQL Server, MySQL e PostgreSQL
@@ -244,6 +249,7 @@ export default function App() {
             empresa: 'Microcamp',
             periodo: 'jan 2009 - dez 2012',
             local: 'Tietê-SP · Presencial',
+            pais: 'br',
             descricao: `• Suporte técnico em infraestrutura de TI (Hardwares e Redes)`,
             descricaoLonga: `• Suporte técnico em infraestrutura de TI (Hardwares e Redes)`,
         }
@@ -253,12 +259,14 @@ export default function App() {
         {
             titulo: "Bacharelado em Engenharia de Software",
             instituicao: "UniCesumar",
+            pais: 'br',
             periodo: "2021 - 2024",
             descricaoLonga: `Formação focada em arquitetura de software, engenharia de requisitos, testes, modelagem, qualidade e desenvolvimento de sistemas completos.`,
         },
         {
             titulo: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
             instituicao: "Universidade Paulista (UNIP)",
+            pais: 'br',
             periodo: "2017 - 2020",
             descricaoLonga: `Base sólida em Analise, programação, estruturas de banco de dados, infraestrutura, lógica aplicada e desenvolvimento de aplicações reais.`,
         }
@@ -344,7 +352,7 @@ export default function App() {
             icon: <FaCode className="text-4xl text-blue-500 mx-auto mb-4" />,
             title: "Backend",
             items: ".NET • ASP.NET Core • MVC • Web API • C# • C++ • EF Core • LINQ",
-            level: "90%" // <- nível de proficiência
+            level: "70%" // nível de proficiência
         },
         {
             icon: <FaLaptopCode className="text-4xl text-blue-500 mx-auto mb-4" />,
@@ -359,22 +367,29 @@ export default function App() {
             level: "100%"
         },
         {
+            icon: <FaTools className="text-4xl text-blue-500 mx-auto mb-4" />,
+            title: "Ferramentas",
+            items: "Microsoft Visual Studio • VS Code • Git • GitHub • JIRA • Kanban • Movidesk • Servicedesk • ServiceNow",
+            level: "100%"
+        },
+        {
             icon: <FaServer className="text-4xl text-blue-500 mx-auto mb-4" />,
             title: "Infraestrutura",
-            items: "Microsoft IIS • Hospedagem • Implantação • Deploy • Configuração Web",
-            level: "90%"
+            items: "Microsoft IIS • Hospedagem • Implantação • Deploy • Configurações ambientes Web • Servidor Dedicado .NET",
+            level: "100%"
         },
         {
             icon: <FaTools className="text-4xl text-blue-500 mx-auto mb-4" />,
-            title: "Ferramentas",
-            items: "Microsoft Visual Studio • VS Code • Git • GitHub • JIRA • Kanban",
-            level: "90%"
+            title: "Suporte Técnico",
+            items: "Suporte técnico em hardware • Redes • Sistemas para Comércios e Industrias • " +
+                "Diagnóstico e troubleshooting de incidentes • Manutenção preventiva/corretiva • Suporte remoto",
+            level: "100%"
         },
         {
             icon: <FaGlobeAmericas className="text-4xl text-blue-500 mx-auto mb-4" />,
             title: "Idiomas",
             items: "Inglês — estudo contínuo, com foco em leitura técnica e conversação",
-            level: "40%"
+            level: "50%"
         }
     ]
 
@@ -383,7 +398,7 @@ export default function App() {
             icon: <FaMobileAlt className="text-4xl text-green-500 mx-auto mb-4" />,
             title: "React Native",
             items: "Desenvolvimento de apps mobile nativos para iOS e Android",
-            level: "Próximos aprendizados"
+            level: "Em andamento"
         },
         {
             icon: <FaBookmark className="text-4xl mx-auto mb-4" style={{ color: '#0078D7' }} />,
@@ -824,10 +839,13 @@ export default function App() {
             {/* Experiencias */}
             <FadeInSection>
                 <section id="experiencias" className="py-20 container mx-auto px-4">
-                    <h2 className="text-4xl font-bold text-center mb-12 flex items-center justify-center gap-3">
-                        <FiBriefcase className="text-blue-400" />
-                        Experiências
-                    </h2>
+                    <div className="flex flex-col items-center gap-1">
+                        <h2 className="text-4xl font-bold flex items-center gap-3">
+                            <FiBriefcase className="text-blue-400" />
+                            Experiências
+                        </h2>
+                        <p className="text-sm text-gray-500 mb-6">Clique para ver as Responsabilidades</p>
+                    </div>
 
                     {/* Barra Vertical Animada */}
                     <motion.div
@@ -870,6 +888,11 @@ export default function App() {
 
                                     <p className="text-sm text-gray-500">
                                         {exp.empresa} · {exp.periodo} · {exp.local}
+                                        <img
+                                            src={`https://flagcdn.com/w40/${exp.pais}.png`}
+                                            alt={exp.pais}
+                                            className="w-5 h-4 rounded-sm"
+                                        />
                                     </p>
                                 </button>
 
@@ -937,6 +960,11 @@ export default function App() {
 
                                     <p className="text-sm text-gray-500">
                                         {form.instituicao} · {form.periodo}
+                                        <img
+                                            src={`https://flagcdn.com/w40/${form.pais}.png`}
+                                            alt={form.pais}
+                                            className="w-5 h-4 rounded-sm"
+                                        />
                                     </p>
                                 </button>
 
@@ -1017,10 +1045,13 @@ export default function App() {
             <FadeInSection>
                 {(isVisible) => (
                     <section id="skills" className="py-20 container mx-auto px-4">
-                        <h2 className="text-4xl font-bold text-center mb-12 flex items-center justify-center gap-3">
-                            <FiCpu className="text-blue-400" />
-                            Skills
-                        </h2>
+                        <div className="flex flex-col items-center gap-1">
+                            <h2 className="text-4xl font-bold flex items-center gap-3">
+                                <FiCpu className="text-blue-400" />
+                                Skills
+                            </h2>
+                            <p className="text-sm text-gray-500 mb-7">Minhas habilidades</p>
+                        </div>
 
                         <div className="grid md:grid-cols-2 gap-8">
                             {skills.map((skill, index) => (
@@ -1057,10 +1088,13 @@ export default function App() {
             {/* Estudando */}
             <FadeInSection>
                 <section id="learning" className="py-20 container mx-auto px-4">
-                    <h2 className="text-4xl font-bold text-center mb-12 flex items-center justify-center gap-3">
-                        <FaBookOpen className="text-green-400" />
-                        Aprendizado atual
-                    </h2>
+                    <div className="flex flex-col items-center gap-1">
+                        <h2 className="text-4xl font-bold flex items-center gap-3">
+                            <FaBookOpen className="text-blue-400" />
+                            Aprendizado atual
+                        </h2>
+                        <p className="text-sm text-gray-500 mb-6">Estudando atualmente</p>
+                    </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
                         {learning.map((item, index) => (
@@ -1089,7 +1123,7 @@ export default function App() {
                             <FaLaptopCode className="text-blue-400" />
                             Projetos
                         </h2>
-                        <p className="text-sm text-gray-500">Clique para saber mais</p>
+                        <p className="text-sm text-gray-500 mb-7">Clique para mais detalhes dos projetos</p>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
@@ -1302,10 +1336,13 @@ export default function App() {
             {/* Contato */}
             <FadeInSection>
                 <section id="contato" className="py-20 container mx-auto px-4">
-                    <h2 className="text-4xl font-bold text-center mb-12 flex items-center justify-center gap-3">
-                        <FiMail className="text-blue-400" />
-                        Contato
-                    </h2>
+                    <div className="flex flex-col items-center gap-1">
+                        <h2 className="text-4xl font-bold flex items-center gap-3">
+                            <FiMail className="text-blue-400" />
+                            Contato
+                        </h2>
+                        <p className="text-sm text-gray-500 mb-7">Entre em contato comigo</p>
+                    </div>
 
                     <div className="grid md:grid-cols-2 gap-12">
                         <Card className="transition-transform hover:scale-105 hover:shadow-lg">
