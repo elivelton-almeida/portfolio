@@ -132,7 +132,7 @@ export default function App() {
         {
             cargo: 'Analista de Sistemas e Desenvolvimento',
             empresa: 'Ahansen Restaurant · Freelancer · Projeto internacional',
-            periodo: 'maio 2025 - jan 2026',
+            periodo: 'maio 2025 - janeiro 2026',
             local: 'Hafnarfjörður, Islândia · Remota',
             pais: 'is', // código ISO do país
             descricao: `• Desenvolvimento de soluções customizadas para gestão do restaurante, incluindo controle de mesas, 
@@ -161,7 +161,7 @@ export default function App() {
         {
             cargo: 'Analista de Sistemas JR',
             empresa: 'Sitio da Mata',
-            periodo: 'set 2024 - abr 2025',
+            periodo: 'setembro 2024 - abril 2025',
             local: 'Tietê-SP · Presencial · Temporário',
             pais: 'br',
             descricao: `• Desenvolvimento e manutenção de aplicações web (Ecommerce) em HTML, CSS, React, C# e ASP.NET Core, arquitetura MVC e em Camadas 
@@ -180,7 +180,7 @@ export default function App() {
         {
             cargo: 'Analista de Desenvolvimento PL',
             empresa: 'PPI-Multitask WEG',
-            periodo: 'jun 2022 - jul 2024',
+            periodo: 'junho 2022 - julho 2024',
             local: 'São Paulo-SP · Remota',
             pais: 'br',
             descricao: `• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
@@ -207,7 +207,7 @@ export default function App() {
         {
             cargo: 'Analista de Desenvolvimento JR',
             empresa: 'Um Ponto Dois Software de Gestão',
-            periodo: 'set 2019 - mai 2022',
+            periodo: 'setembro 2019 - maio 2022',
             local: 'Laranjal Paulista-SP · Presencial',
             pais: 'br',
             descricao: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
@@ -228,7 +228,7 @@ export default function App() {
         {
             cargo: 'Analista de Suporte SR',
             empresa: 'Coam Informática',
-            periodo: 'jan 2014 - jul 2019',
+            periodo: 'janeiro 2014 - julho 2019',
             local: 'Tietê-SP · Presencial',
             pais: 'br',
             descricao: `• Implantação e suporte de sistemas para Comércios
@@ -247,7 +247,7 @@ export default function App() {
         {
             cargo: 'Estagiário de TI',
             empresa: 'Microcamp',
-            periodo: 'jan 2009 - dez 2012',
+            periodo: 'janeiro 2009 - dezembro 2012',
             local: 'Tietê-SP · Presencial',
             pais: 'br',
             descricao: `• Suporte técnico em infraestrutura de TI (Hardwares e Redes)`,
