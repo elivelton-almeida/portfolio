@@ -131,7 +131,7 @@ export default function App() {
     const experiencias = [
         {
             cargo: 'Analista de Sistemas e Desenvolvimento',
-            empresa: 'Ahansen Restaurant · Freelancer · Projeto internacional',
+            empresa: 'A. Hansen Restaurant · Freelancer · Projeto internacional',
             periodo: 'maio 2025 - janeiro 2026',
             local: 'Hafnarfjörður, Islândia · Remota',
             pais: 'is', // código ISO do país
