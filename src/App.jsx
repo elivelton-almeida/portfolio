@@ -178,13 +178,14 @@ export default function App() {
             • Execução de testes manuais para validação de funcionalidades e garantia de qualidade`,
         },
         {
-            cargo: 'Analista de Desenvolvimento PL',
+            cargo: 'Analista de Suporte e Desenvolvimento PL',
             empresa: 'PPI-Multitask WEG',
             periodo: 'junho 2022 - julho 2024',
             local: 'São Paulo-SP · Remota',
             pais: 'br',
             descricao: `• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
             • Desenvolvimento e manutenção de aplicações web e desktop (Industria) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
+            • Desenvolvimento de solução em C# .NET para conversão e migração de dados
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Integração entre serviços utilizando RabbitMQ para mensageria e processamento assíncrono
             • Criação e consumo de APIs REST para comunicação entre serviços
@@ -195,6 +196,7 @@ export default function App() {
             • Execução de testes manuais para validação de funcionalidades`,
             descricaoLonga: `• Analista N1 soluções PC-Factory MES Industria 4.0 (Manufacturing Execution System)
             • Desenvolvimento e manutenção de aplicações web e desktop (Industria) em .NET, ASP.NET Core, JavaScript, arquitetura MVC
+            • Desenvolvimento de solução em C# .NET para conversão e migração de dados
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Integração entre serviços utilizando RabbitMQ para mensageria e processamento assíncrono
             • Criação e consumo de APIs REST para comunicação entre serviços
@@ -205,19 +207,21 @@ export default function App() {
             • Execução de testes manuais para validação de funcionalidades`,
         },
         {
-            cargo: 'Analista de Desenvolvimento JR',
+            cargo: 'Analista de Suporte e Desenvolvimento JR',
             empresa: 'Um Ponto Dois Software de Gestão',
             periodo: 'setembro 2019 - maio 2022',
             local: 'Laranjal Paulista-SP · Presencial',
             pais: 'br',
-            descricao: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
+            descricao: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas
+            • Desenvolvimento de solução em C# .NET para automação de backups de bases de dados SQL Server e MySQL
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Criação e consumo de APIs REST para comunicação entre serviços
             • Implementação, manutenção e otimização de consultas em bancos de dados SQL Server, MySQL e PostgreSQL
             • Publicação e configuração de aplicações web em Microsoft IIS
             • Implantação de sistemas de gestão para comércios e indústrias
             • Conversão, migração e validação de dados entre bases de clientes`,
-            descricaoLonga: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas 
+            descricaoLonga: `• Desenvolvimento e manutenção de aplicações web e desktop (Comércio e Industria) em NET, ASP.NET Core e GeneXus, arquitetura MVC e em Camadas
+            • Desenvolvimento de solução em C# .NET para automação de backups de bases de dados SQL Server e MySQL
             • Implementação de arquitetura de microserviços para separação de módulos do sistema
             • Criação e consumo de APIs REST para comunicação entre serviços
             • Implementação, manutenção e otimização de consultas em bancos de dados SQL Server, MySQL e PostgreSQL
